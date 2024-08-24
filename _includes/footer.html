@@ -1,5 +1,14 @@
 <footer>
-    <div class="border-top container-fluid">
-        <span class="d-block text-center copyright">Copyright© 2024</span>
+    <div class="border-top container">
+        <div class="row align-items-center">
+            <div class="col-6">
+                <span class="d-block copyright">{{ site.data.site.footer-text }}</span>
+            </div>
+
+            <div class="col-6 text-end">
+                <a href="{{ site.data.site.footer-policy-link }}" target="_blank" class="pe-3 text-decoration-none footer-link">{{ site.data.site.footer-policy }}</a>
+                <a href="{{ site.data.site.footer-tos-link }}" target="_blank" class="text-decoration-none footer-link">{{ site.data.site.footer-tos }}</a>
+            </div>
+        </div>
     </div>
 </footer>

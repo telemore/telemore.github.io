@@ -9,6 +9,13 @@ nav:
   - slugid: 3
     text: Contact Us
     link:
+
+footer-text: Copyright © 2024
+footer-policy: Privacy Policy
+footer-policy-link:
+footer-tos: Terms of Service
+footer-tos-link:
+
 intro-header-text: The next-generation productivity
 intro-colored-text: "analytics tool."
 intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
