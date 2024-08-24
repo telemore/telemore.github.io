@@ -14,5 +14,21 @@ intro-colored-text: "analytics tool."
 intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
 intro-image: /assets/image/home-hero-image.png
 
+service-header: See the complete picture of your people and profits
+service-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. viverra maecenas accumsan lacus vel facilisis."
+service-list:
+  - subheader: Your productivity lens for your team
+    title: Take the guesswork out of managing remote teams
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+    image: /assets/image/service1.png
+  - subheader: Your productivity lens for managers
+    title: Spot work bottlenecks and team burnout
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+    image: /assets/image/service2.png
+  - subheader: Your profit lens for your company
+    title: Keep teams on track and money in your pocket
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+    image: /assets/image/service3.png
+
 
     
