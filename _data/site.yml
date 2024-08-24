@@ -30,5 +30,10 @@ service-list:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service3.png
 
+integration-header: "Easily integrate with 30+ apps."
+integration-description: "With over 50 integrations available on the Insightful platform, connecting with your team's top tools is just a click away."
+integration-bg: /assets/image/integrations-bg-landscape.png
+
+
 
     
