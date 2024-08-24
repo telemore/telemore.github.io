@@ -1,0 +1,18 @@
+brand-logo-text: "telemore.ai"
+nav:
+  - slugid: 1
+    text: Services
+    link:
+  - slugid: 2
+    text: Blog
+    link:
+  - slugid: 3
+    text: Contact Us
+    link:
+intro-header-text: The next-generation productivity
+intro-colored-text: "analytics tool."
+intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
+intro-image: /assets/image/home-hero-image.png
+
+
+    
