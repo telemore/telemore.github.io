@@ -10,7 +10,7 @@ github_username:  jekyll
 # Build settings
 plugins:
   - jekyll-feed
-  # - jekyll-paginate
+  - jekyll-paginate
 
 markdown: kramdown
 
@@ -20,6 +20,9 @@ markdown: kramdown
 sass:
   sass_dir: _scss
   style: compressed
+
+paginate: 5
+paginate_path: blogs/page:num/
 
 collections:
   # category:

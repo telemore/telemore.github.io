@@ -1,0 +1,14 @@
+<div class="blog-list-container blog-specific pt-5 pb-5">
+<!-- This loops through the paginated pages -->
+    <div class="blog-item">
+        <div class="blog-content">
+            <a href="#" class="d-block text-decoration-none blog-title-link">
+                <h2 class="blog-title">{{ page.title }}</h2>
+            </a>
+            <span class="date mb-3 d-block">{{ page.date | date: "%-d %B %Y" }}</span>
+            <div class="content-container">
+                {{ content }}
+            </div>
+        </div>
+    </div>
+</div>

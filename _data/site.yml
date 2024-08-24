@@ -5,7 +5,7 @@ nav:
     link:
   - slugid: 2
     text: Blog
-    link:
+    link: /blogs/
   - slugid: 3
     text: Contact Us
     link:
