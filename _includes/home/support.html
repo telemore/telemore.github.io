@@ -1,0 +1,16 @@
+<div class="section-container container">
+    <div class="header-container">
+        <h2 class="header text-center">{{ site.data.site.support-header }}</h2>
+        <p class="header-description text-center">{{ site.data.site.support-description }}</p>
+    </div>
+
+    <div class="content-container">
+        <div class="row">
+            {% for support in site.data.site.support-list %}
+            <div class="col-md-3">
+                <img src="{{ support.image }}" class="img-fluid d-block"/>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>

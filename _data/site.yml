@@ -31,8 +31,16 @@ service-list:
     image: /assets/image/service3.png
 
 integration-header: "Easily integrate with 30+ apps."
-integration-description: "With over 50 integrations available on the Insightful platform, connecting with your team's top tools is just a click away."
+integration-description: "With over 50 integrations available on the telemore platform, connecting with your team's top tools is just a click away."
 integration-bg: /assets/image/integrations-bg-landscape.png
+
+support-header: Get enterprise-level security and support
+support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. viverra maecenas accumsan lacus vel facilisis. 
+support-list:
+  - image: /assets/image/support1.png
+  - image: /assets/image/support2.png
+  - image: /assets/image/support3.png
+  - image: /assets/image/support4.png
 
 
 
