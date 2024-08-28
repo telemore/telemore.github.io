@@ -9,8 +9,8 @@
         background-position: center center;
 
         .intro-container{
-            padding-top: 285px;
-            padding-bottom: 285px;
+            padding-top: 200px;
+            padding-bottom: 200px;
 
             .intro-header{
                 color: #ffffff;
@@ -19,8 +19,8 @@
                 line-height: 90px;
                 letter-spacing: 0.02em;
                 text-align: left;
-
             }
+
             .intro-description{
                 color: #ffffff;
                 max-width: 58%;
@@ -58,14 +58,17 @@
                     text-align: left;
 
                 }
+
                 .card-title{
                     font-size: 20px;
                     line-height: 30px;
                     font-weight: 600;
                 }
+
                 .card-text{
                     margin-bottom: 0;
                 }
+
                 p{
                     font-size: 16px;
                     font-weight: 400;
@@ -74,8 +77,8 @@
                     text-align: left;
                     margin-bottom: 0;
                     color: #666666;
-
                 }
+
                 .card-link{
                     font-size: 16px;
                     font-weight: 500;
@@ -83,7 +86,6 @@
                     letter-spacing: 0.02em;
                     color: #0985E3;
                     text-decoration: none;
-
                 }
             }
         }
@@ -133,7 +135,6 @@
             line-height: 24px;
             letter-spacing: 0.02em;
             text-align: center;
-            
         }
     }
 }
