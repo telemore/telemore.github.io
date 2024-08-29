@@ -3,4 +3,16 @@
         <h2 class="header text-center">{{ site.data.site.integration-header }}</h2>
         <p class="header-description text-center">{{ site.data.site.integration-description }}</p>
     </div>
+
+    <div class="integration-list-container pt-5">
+        <div class="row">
+            {% for item in site.data.site.integration-list %}
+            <div class="col-md-4 integration-item ">
+                <img src="{{ item.icon }}" class="integration-icon d-block"/>
+                <h4 class="integration-title pt-3">{{ item.title }}</h4>
+                <p class="integration-description">{{ item.description }}</p>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
 </div>

@@ -38,16 +38,22 @@ service-list:
     image: /assets/image/service3.png
 
 integration-header: "Easily integrate with 30+ apps."
-integration-description: "With over 50 integrations available on the telemore platform, connecting with your team's top tools is just a click away."
+integration-description: "With over 30 integrations available on the telemore platform, connecting with your team's top tools is just a click away."
 integration-bg: /assets/image/integrations-bg-landscape.png
+integration-list:
+  - title: Seamless Data Sync
+    description: Automatically sync data across all your tools without lifting a finger. Ensure your team stays on the same page with real-time updates and seamless integration.
+    icon: /assets/image/icon1.png
+  - title: Unified Dashboard
+    description: Manage everything from a single dashboard. With all your apps in one place, you can track progress, monitor performance, and stay organized effortlessly.
+    icon: /assets/image/icon2.png
+  - title: Quick Setup, Instant Productivity
+    description: Get up and running in minutes. Our intuitive interface makes it easy to connect your favorite apps, so your team can focus on what really matters.
+    icon: /assets/image/icon3.png
 
 support-header: Get enterprise-level security and support
-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. viverra maecenas accumsan lacus vel facilisis. 
-support-list:
-  - image: /assets/image/support1.png
-  - image: /assets/image/support2.png
-  - image: /assets/image/support3.png
-  - image: /assets/image/support4.png
+support-description: Managing remote teams doesn't have to be a challenge. With the right tools and insights, you can confidently oversee your team’s productivity and collaboration from anywhere. Say goodbye to uncertainty and hello to streamlined processes, clear communication, and measurable results. By removing the guesswork, you ensure that your remote teams stay aligned, motivated, and focused on achieving their goals.
+support-image: /assets/image/support.png
 
 
 
