@@ -1,0 +1,32 @@
+<div class="section-container">
+    <div class="header-container">
+        <div class="container">
+            <h2 class="header text-center">{{ site.data.service.service-header }}</h2>
+            <p class="header-description text-center">{{ site.data.service.service-description }}</p>
+        </div>
+    </div>
+
+    
+    <div class="container-list">
+    {% for service in site.data.service.service-list %}
+        <div class="content-wrapper item-{{ forloop.index }}">
+            <div class="container">
+                <div class="row content-container">
+                    <div class="col-md-6 left-section {% cycle 'order-1', 'order-2', 'order-1' %}">
+                        <div class="service-image-container">
+                            <img src="{{ service.image }}" class="service-image img-fluid d-block mx-auto"/>
+                        </div>
+                    </div>
+                    <div class="col-md-6 right-section {% cycle 'order-2', 'order-1', 'order-1' %}">
+                        <div class="service-content-container">
+                            <span class="service-subheader">{{ service.subheader }}</span>
+                            <h3 class="service-title">{{ service.title }}</h3>
+                            <p class="service-description">{{ service.description }}</p>
+                        </div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+    {% endfor %}
+    </div>
+</div>
