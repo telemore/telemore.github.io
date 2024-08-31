@@ -2,10 +2,11 @@
 <!-- This loops through the paginated pages -->
     <div class="blog-item">
         <div class="blog-content">
-            <a href="#" class="d-block text-decoration-none blog-title-link">
-                <h2 class="blog-title">{{ page.title }}</h2>
-            </a>
-            <span class="date mb-3 d-block">{{ page.date | date: "%-d %B %Y" }}</span>
+            <div class="blog-header">
+                <h1 class="blog-title">{{ page.title }}</h1>
+                <span class="date mb-3 d-block text-center">Posted on {{ page.date | date: "%B %-d %Y" }} by {{ page.author }}</span>
+            </div>
+            
             <div class="content-container">
                 {{ content }}
             </div>
