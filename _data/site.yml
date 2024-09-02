@@ -23,39 +23,41 @@ intro-header-text: The next-generation productivity
 intro-colored-text: "analytics tool."
 intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
 intro-image: /assets/image/hero-image.png
+intro-button-text1: Lorem ipsum
+intro-button-link1:
 
-service-header: See the complete picture of your people and profits
+service-header: Lorem ipsum dolor sit amet
 service-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. viverra maecenas accumsan lacus vel facilisis."
 service-list:
-  - subheader: Your productivity lens for your team
-    title: Take the guesswork out of managing remote teams
+  - subheader: Lorem ipsum dolor
+    title: Lorem ipsum dolor sit amet
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service1.png
-  - subheader: Your productivity lens for managers
-    title: Spot work bottlenecks and team burnout
+  - subheader: Lorem ipsum dolor
+    title: Lorem ipsum dolor sit amet
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service2.png
-  - subheader: Your profit lens for your company
-    title: Keep teams on track and money in your pocket
+  - subheader: Lorem ipsum dolor
+    title: Lorem ipsum dolor sit amet
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service3.png
 
-integration-header: "Easily integrate with 30+ apps."
-integration-description: "With over 30 integrations available on the telemore platform, connecting with your team's top tools is just a click away."
+integration-header: "Lorem ipsum dolor sit amet"
+integration-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 integration-bg: /assets/image/integrations-bg-landscape.png
 integration-list:
-  - title: Seamless Data Sync
-    description: Automatically sync data across all your tools without lifting a finger. Ensure your team stays on the same page with real-time updates and seamless integration.
+  - title: Lorem ipsum dolor
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     icon: /assets/image/icon1.png
-  - title: Unified Dashboard
-    description: Manage everything from a single dashboard. With all your apps in one place, you can track progress, monitor performance, and stay organized effortlessly.
+  - title: Lorem ipsum dolor
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     icon: /assets/image/icon2.png
-  - title: Quick Setup, Instant Productivity
-    description: Get up and running in minutes. Our intuitive interface makes it easy to connect your favorite apps, so your team can focus on what really matters.
+  - title: Lorem ipsum dolor
+    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     icon: /assets/image/icon3.png
 
-support-header: Get enterprise-level security and support
-support-description: Managing remote teams doesn't have to be a challenge. With the right tools and insights, you can confidently oversee your team’s productivity and collaboration from anywhere. Say goodbye to uncertainty and hello to streamlined processes, clear communication, and measurable results. By removing the guesswork, you ensure that your remote teams stay aligned, motivated, and focused on achieving their goals.
+support-header: Lorem ipsum dolor
+support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
 support-image: /assets/image/support.png
 
 
