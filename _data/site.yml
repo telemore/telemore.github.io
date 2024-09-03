@@ -15,9 +15,9 @@ nav:
 
 footer-text: Copyright © 2024
 footer-policy: Privacy Policy
-footer-policy-link:
+footer-policy-link: /privacy/
 footer-tos: Terms of Service
-footer-tos-link:
+footer-tos-link: /terms/
 
 intro-header-text: The next-generation productivity
 intro-colored-text: "analytics tool."
