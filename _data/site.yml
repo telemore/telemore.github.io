@@ -10,18 +10,18 @@ nav:
     isDropDown: true
     subMenu:
       - text: What is telemore
-        link: 
+        link: /services/
         desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
       - text: What is telemore
-        link: 
+        link: /services/
         desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
       - text: What is telemore
-        link: 
+        link: /services/
         desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
     
   - slugid: 3
     text: Pricing
-    link: /pricing/
+    link:
     isDropDown:
   - slugid: 4
     text: Blog
