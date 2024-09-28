@@ -12,6 +12,37 @@ body{
 
     .navbar-nav{
         .nav-item{
+            &.dropdown{
+                .menu-container{
+                    padding: 10px;
+                    text-decoration: none;
+                    margin: 15px;
+                    border-radius: 8px;
+                    width: 450px;
+
+                    &:hover{
+                        background-color: #eff8ff;
+                    }
+
+                    .menu-title{
+                        padding-top: 8px;                            
+                        font-size: 16px;
+                        font-weight: 600;                  
+                        font-family: "Poppins", Sans-serif;
+                        line-height: 24px;
+                        margin-bottom: 5px;
+                        color: #333333;
+                    }
+
+                    .menu-desc{
+                        font-size: 16px;
+                        line-height: 1.8;
+                        color: #666666;
+                    }
+                }
+                
+            }
+
             .nav-link{
                 padding-left: 20px;
                 padding-right: 20px;
@@ -74,7 +105,50 @@ footer{
     }
 }
 
+@media (max-width: 1366px){
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                &.dropdown{
+                    .menu-container{
+                        width: 400px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 1200px){
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                &.dropdown{
+                    .menu-container{
+                        width: 350px;
+                    }
+                }
+            }
+        }
+    }
+}
+
 @media (max-width: 992px){
-    
+    .navbar{
+        .navbar-nav{
+            .nav-item{
+                &.dropdown{
+                    .dropdown-menu{
+                        border: none;
+                    }
+
+                     .menu-container{
+                        width: 100%;
+                        max-width: 450px;
+                    }
+                }
+            }
+        }
+    }
 }
 

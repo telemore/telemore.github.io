@@ -7,9 +7,27 @@
 		<div class="collapse navbar-collapse" id="navbarSupportedContent">
 			<ul class="navbar-nav ms-auto mb-2 mb-lg-0">
 				{% for nav in site.data.site.nav %}
+				{% if nav.isDropDown %}
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" 
+						href="#" role="button"
+						data-bs-toggle="dropdown"
+						aria-expanded="false" href="#">{{ nav.text }}
+					</a>
+					<ul class="dropdown-menu">
+						{% for subMenu in nav.subMenu %}
+						<a class="menu-container d-block" href="{{ subMenu.link }}">
+							<span class="menu-title d-block">{{ subMenu.text }}</span>
+							<span class="menu-desc d-block"> {{ subMenu.desc }} </span>
+						</a>
+						{% endfor %}	
+					</ul>
+				</li>
+				{% else %}
 				<li class="nav-item {% if forloop.first %} active {% endif %}">
 					<a class="nav-link {% if forloop.last %} pe-0 {% endif %}" href="{{ nav.link }}">{{ nav.text }}</a>
 				</li>
+				{% endif %}
 				{% endfor %}
 			</ul>
 		</div>

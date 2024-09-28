@@ -3,15 +3,34 @@ nav:
   - slugid: 1
     text: Home
     link: /
+    isDropDown:
   - slugid: 2
-    text: Services
-    link: /services/
+    text: Product Details
+    link:
+    isDropDown: true
+    subMenu:
+      - text: What is telemore
+        link: 
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
+      - text: What is telemore
+        link: 
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
+      - text: What is telemore
+        link: 
+        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
+    
   - slugid: 3
+    text: Pricing
+    link: /pricing/
+    isDropDown:
+  - slugid: 4
     text: Blog
     link: /blogs/
-  - slugid: 4
+    isDropDown:
+  - slugid: 5
     text: Contact Us
     link:
+    isDropDown:
 
 footer-text: Copyright © 2024
 footer-policy: Privacy Policy
