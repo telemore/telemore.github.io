@@ -1,3 +1,6 @@
+$blue: #0984e3;
+$blueHover: #0672c5;
+
 body{
     font-family: "Lato", Sans-serif;
     color: #333333;
@@ -5,6 +8,44 @@ body{
 
 .container{
     max-width: 1140px;
+}
+
+.primary-bg{
+    background: $blue;
+}
+
+.primary-border{
+    border-color: $blue;
+}
+
+.border-primary{
+    border-color: $blue !important;
+}
+
+.text-bg-primary{
+    background-color: $blue !important;
+}
+
+.btn-primary{
+    background-color: $blue !important;
+
+    &:hover{
+        background-color: $blueHover !important;
+    }
+}
+
+.no-bg{
+    background: none !important;
+}
+
+.btn-outline-primary{
+    color: $blue;
+    border-color: $blue;
+
+    &:hover{
+        background-color: $blue;
+        border-color: $blue;
+    }
 }
 
 .navbar{
@@ -76,7 +117,7 @@ footer{
 
 
         &:hover{
-            color: #0984e3;
+            color: $blue;
         }
     }
 }
