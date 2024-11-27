@@ -21,7 +21,7 @@ nav:
     
   - slugid: 3
     text: Pricing
-    link:
+    link: /pricing/
     isDropDown:
   - slugid: 4
     text: Blog
@@ -29,7 +29,7 @@ nav:
     isDropDown:
   - slugid: 5
     text: Contact Us
-    link:
+    link: /contact-us/
     isDropDown:
 
 footer-text: Copyright © 2024
