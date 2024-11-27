@@ -42,8 +42,11 @@ intro-header-text: The next-generation productivity
 intro-colored-text: "analytics tool."
 intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
 intro-image: /assets/image/hero-image.png
-intro-button-text1: Lorem ipsum
+intro-button-text1: Get Started For Free
 intro-button-link1:
+intro-button-text2: Request a demo
+intro-button-link2: 
+
 
 service-header: Lorem ipsum dolor sit amet
 service-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. viverra maecenas accumsan lacus vel facilisis."
