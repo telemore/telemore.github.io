@@ -6,3 +6,4 @@ site
 Gemfile.lock
 vendor
 .DS_Store
+.idea

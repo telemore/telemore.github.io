@@ -32,27 +32,30 @@ nav:
     link: /contact-us/
     isDropDown:
 
-footer-text: Copyright © 2024
+footer-text: Copyright © 2025
 footer-policy: Privacy Policy
 footer-policy-link: /privacy/
 footer-tos: Terms of Service
 footer-tos-link: /terms/
 
-intro-header-text: The next-generation productivity
-intro-colored-text: "analytics tool."
-intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
+intro-header-text: Generative AI Employee Productivity
+intro-colored-text: "Monitoring"
+intro-header-subtext: Telemore integrates with employee's work devices to provide task tracking and user activity visibility, with actionable recommendations and insights.
 intro-image: /assets/image/hero-image.png
+
 intro-button-text1: Get Started For Free
-intro-button-link1:
+intro-button-link1: https://telemore.app
+
 intro-button-text2: Request a demo
+intro-button-href: https://calendly.com/telemore
 intro-button-link2: 
 
 
-service-header: Lorem ipsum dolor sit amet
-service-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. viverra maecenas accumsan lacus vel facilisis."
+service-header: Insights That Matter, Not Just Metrics
+service-description: "Unlike traditional tools that overwhelm you with raw data and metrics, Telemore offers higher-level summarization of what employees did, and coaching on how to perform better. Our platform helps you optimize workflows and boost productivity without the noise."
 service-list:
-  - subheader: Lorem ipsum dolor
-    title: Lorem ipsum dolor sit amet
+  - subheader: what does this do?
+    title: Unlike other employee monitoring firms,
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service1.png
   - subheader: Lorem ipsum dolor
@@ -64,7 +67,7 @@ service-list:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service3.png
 
-integration-header: "Lorem ipsum dolor sit amet"
+integration-header: "Built with security "
 integration-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 integration-bg: /assets/image/integrations-bg-landscape.png
 integration-list:
