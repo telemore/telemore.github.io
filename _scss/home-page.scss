@@ -91,6 +91,20 @@
             padding-bottom: 50px;
             background-color: #e6f4fe;
         }
+
+        .company-list-container{
+            .header-container{
+                background-color: transparent;
+            }
+
+            .company-item{
+                .company-link{
+                    .company-image{
+                        height: 100px;
+                    }
+                }
+            }
+        }
         
         .container-list{
             padding-top: 40px;

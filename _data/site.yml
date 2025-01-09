@@ -50,6 +50,17 @@ intro-button-text2: Request a demo
 intro-button-href: https://calendly.com/telemore
 intro-button-link2: 
 
+home-company-header: Trusted by over 500 global companies
+home-company-list:
+  - image: /assets/image/company-placeholder.svg
+    link: #
+  - image: /assets/image/company-placeholder.svg
+    link: #
+  - image: /assets/image/company-placeholder.svg
+    link: #
+  - image: /assets/image/company-placeholder.svg
+    link: #
+
 
 service-header: Insights That Matter, Not Just Metrics
 service-description: "Unlike traditional tools that overwhelm you with raw data and metrics, Telemore offers higher-level summarization of what employees did, and coaching on how to perform better. Our platform helps you optimize workflows and boost productivity without the noise."

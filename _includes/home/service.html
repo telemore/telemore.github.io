@@ -6,6 +6,21 @@
         </div>
     </div>
 
+    <div class="company-list-container container pt-5 pb-5">
+        <div class="header-container">
+            <h4 class="header text-center">{{ site.data.site.home-company-header }}</h2>
+        </div>
+
+        <div class="row">
+            {% for item in site.data.site.home-company-list %}
+            <div class="col-md-3 col-2 company-item text-center mt-3">
+                <a href="{{ item.link }}" class="company-link d-inline-block" target="_blank">
+                    <img src="{{ item.image }}" class="company-image center-block"/>
+                </a>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
     
     <div class="container-list">
     {% for service in site.data.site.service-list %}
