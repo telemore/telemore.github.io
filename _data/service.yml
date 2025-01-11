@@ -1,16 +1,16 @@
-intro-header-text: Achieve More with In-Depth with telemore.ai
-intro-colored-text: "services"
-intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
-intro-header-text: The next-generation productivity
-intro-colored-text: "analytics tool."
-intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
-intro-image: /assets/image/service-banner2.png
-intro-button-text1: Lorem ipsum
-intro-button-link1:
+product-intro-header-text: Achieve More with In-Depth with telemore.ai
+product-intro-colored-text: "services"
+product-intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
+product-intro-header-text: The next-generation productivity
+product-intro-colored-text: "analytics tool."
+product-intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
+product-intro-image: /assets/image/service-banner2.png
+product-intro-button-text1: Lorem ipsum
+product-intro-button-link1:
 
-service-header: Lorem ipsum dolor sit amet
-service-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. viverra maecenas accumsan lacus vel facilisis."
-service-list:
+product-service-header: Lorem ipsum dolor sit amet
+product-service-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. viverra maecenas accumsan lacus vel facilisis."
+product-service-list:
   - subheader: Lorem ipsum dolor
     title: Lorem ipsum dolor sit amet
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
@@ -24,10 +24,10 @@ service-list:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service3.png
 
-integration-header: "Lorem ipsum dolor sit amet"
-integration-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-integration-bg: /assets/image/integrations-bg-landscape.png
-integration-list:
+product-integration-header: "Lorem ipsum dolor sit amet"
+product-integration-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+product-integration-bg: /assets/image/integrations-bg-landscape.png
+product-integration-list:
   - title: Lorem ipsum dolor
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     icon: /assets/image/icon1.png
@@ -38,8 +38,8 @@ integration-list:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     icon: /assets/image/icon3.png
 
-support-header: Lorem ipsum dolor
-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-support-image: /assets/image/support.png
+product-support-header: Lorem ipsum dolor
+product-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+product-support-image: /assets/image/support.png
 
     
