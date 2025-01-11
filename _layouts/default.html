@@ -6,7 +6,9 @@
     <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
 
-    <title>{{ site.title }}</title>
+    {% seo %}
+
+    <!-- <title>{{ site.title }}</title>
     <meta property="og:title" content="{{ site.title }}">
     <meta property="og:locale" content="en_US">
     <meta property="og:site_name" content="{{ site.title }}"><meta name="description" content="{{ site.description }}">
@@ -14,7 +16,7 @@
     <meta property="og:image" content="">
     <meta property="og:url" content="{{ relative_baseurl }}">
     <meta name="keywords" content="">
-    <link rel="canonical" href="{{ relative_baseurl }}">
+    <link rel="canonical" href="{{ relative_baseurl }}"> -->
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -28,6 +30,7 @@
     <link rel="manifest" href="/site.webmanifest">
     <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#5bbad5"> -->
     {{ layout.css }}
+    
 </head>
 <body>
 
