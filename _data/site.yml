@@ -1,4 +1,4 @@
-brand-logo-text: "telemore.ai"
+brand-logo-text: "Telemore AI"
 nav:
   - slugid: 1
     text: Home
@@ -9,15 +9,15 @@ nav:
     link:
     isDropDown: true
     subMenu:
-      - text: What is telemore
-        link: /products/
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
-      - text: What is telemore
-        link: /products/
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
-      - text: What is telemore
-        link: /products/
-        desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
+      - text: How it Works
+        link: /product/
+        desc: Discover how Telemore seamlessly integrates with employees’ devices to provide actionable insights and optimize productivity
+      - text: Security & Privacy
+        link: /security/
+        desc: Learn how Telemore ensures your data stays secure while maintaining transparency and privacy for your team
+      - text: FAQs
+        link: /faq/
+        desc: Find answers to commonly asked questions about Telemore’s features, functionality, and setup process
     
   - slugid: 3
     text: Pricing
@@ -40,13 +40,13 @@ footer-tos-link: /terms/
 
 home-intro-header-text: Generative AI Employee Productivity
 home-intro-colored-text: "Monitoring"
-home-intro-header-subtext: Telemore integrates with employee's work devices to provide task tracking and user activity visibility, with actionable recommendations and insights.
+home-intro-header-subtext: Telemore installs on Employee Laptops, and provides Insights on Tasks and User Activity (Proof of Work) with Actionable Recommendations
 home-intro-image: /assets/image/hero-image.png
 
-home-intro-button-text1: Get Started For Free
+home-intro-button-text1: Get Started for Free
 home-intro-button-link1: https://telemore.app
 
-home-intro-button-text2: Request a demo
+home-intro-button-text2: Request a Demo
 home-intro-button-href: https://calendly.com/telemore
 home-intro-button-link2: 
 
@@ -80,7 +80,7 @@ home-service-list:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service3.png
 
-home-integration-header: "Built with security "
+home-integration-header: "Built with Security and Privacy"
 home-integration-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 home-integration-bg: /assets/image/integrations-bg-landscape.png
 home-integration-list:

@@ -1,12 +1,12 @@
 pricing-intro-header-text: Pricing
 pricing-intro-colored-text: ""
 pricing-intro-header-subtext: 
-pricing-intro-header-text: Affordable
-pricing-intro-colored-text: "pricing"
-pricing-intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
+pricing-intro-header-text: Temporarily
+pricing-intro-colored-text: "Free"
+pricing-intro-header-subtext: We just launched—And appreciate your interest in us! We are looking to onboard beta users to help us provide the best user experience for you. As a token of our appreciation, we are making Telemore free to use during our beta phase
 pricing-intro-image: /assets/image/service-banner2.png
-pricing-intro-button-text1: Lorem ipsum
-pricing-intro-button-link1:
+pricing-intro-button-text1: Click to Sign In
+pricing-intro-button-link1: https:\\telemore.app
 
 pricing-price-list:
   - title: FREE
