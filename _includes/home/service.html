@@ -1,8 +1,8 @@
 <div class="section-container">
     <div class="header-container">
         <div class="container">
-            <h2 class="header text-center">{{ site.data.site.service-header }}</h2>
-            <p class="header-description text-center">{{ site.data.site.service-description }}</p>
+            <h2 class="header text-center">{{ site.data.site.home-service-header }}</h2>
+            <p class="header-description text-center">{{ site.data.site.home-service-description }}</p>
         </div>
     </div>
 
@@ -22,7 +22,7 @@
     </div>
     
     <div class="container-list">
-    {% for service in site.data.site.service-list %}
+    {% for service in site.data.site.home-service-list %}
         <div class="content-wrapper item-{{ forloop.index }}">
             <div class="container">
                 <div class="row content-container">

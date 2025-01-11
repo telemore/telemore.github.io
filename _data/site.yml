@@ -38,17 +38,17 @@ footer-policy-link: /privacy/
 footer-tos: Terms of Service
 footer-tos-link: /terms/
 
-intro-header-text: Generative AI Employee Productivity
-intro-colored-text: "Monitoring"
-intro-header-subtext: Telemore integrates with employee's work devices to provide task tracking and user activity visibility, with actionable recommendations and insights.
-intro-image: /assets/image/hero-image.png
+home-intro-header-text: Generative AI Employee Productivity
+home-intro-colored-text: "Monitoring"
+home-intro-header-subtext: Telemore integrates with employee's work devices to provide task tracking and user activity visibility, with actionable recommendations and insights.
+home-intro-image: /assets/image/hero-image.png
 
-intro-button-text1: Get Started For Free
-intro-button-link1: https://telemore.app
+home-intro-button-text1: Get Started For Free
+home-intro-button-link1: https://telemore.app
 
-intro-button-text2: Request a demo
-intro-button-href: https://calendly.com/telemore
-intro-button-link2: 
+home-intro-button-text2: Request a demo
+home-intro-button-href: https://calendly.com/telemore
+home-intro-button-link2: 
 
 home-company-header: Built with Industry Experience From
 home-company-list:
@@ -64,9 +64,9 @@ home-company-list:
     link: #
 
 
-service-header: Insights That Matter, Not Just Metrics
-service-description: "Unlike traditional tools that overwhelm you with raw data and metrics, Telemore offers higher-level summarization of what employees did, and coaching on how to perform better. Our platform helps you optimize workflows and boost productivity without the noise."
-service-list:
+home-service-header: Insights That Matter, Not Just Metrics
+home-service-description: "Unlike traditional tools that overwhelm you with raw data and metrics, Telemore offers higher-level summarization of what employees did, and coaching on how to perform better. Our platform helps you optimize workflows and boost productivity without the noise."
+home-service-list:
   - subheader: what does this do?
     title: Unlike other employee monitoring firms,
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
@@ -80,10 +80,10 @@ service-list:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service3.png
 
-integration-header: "Built with security "
-integration-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
-integration-bg: /assets/image/integrations-bg-landscape.png
-integration-list:
+home-integration-header: "Built with security "
+home-integration-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+home-integration-bg: /assets/image/integrations-bg-landscape.png
+home-integration-list:
   - title: Lorem ipsum dolor
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     icon: /assets/image/icon1.png
@@ -94,9 +94,9 @@ integration-list:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
     icon: /assets/image/icon3.png
 
-support-header: Lorem ipsum dolor
-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-support-image: /assets/image/support.png
+home-support-header: Lorem ipsum dolor
+home-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+home-support-image: /assets/image/support.png
 
 
 
