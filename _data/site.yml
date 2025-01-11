@@ -80,7 +80,7 @@ home-service-list:
     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
     image: /assets/image/service3.png
 
-home-integration-header: "Built with Security and Privacy"
+home-integration-header: "Built with Security and Privacy First"
 home-integration-description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 home-integration-bg: /assets/image/integrations-bg-landscape.png
 home-integration-list:
