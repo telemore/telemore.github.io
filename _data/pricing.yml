@@ -1,14 +1,14 @@
-intro-header-text: Pricing
-intro-colored-text: ""
-intro-header-subtext: 
-intro-header-text: Affordable
-intro-colored-text: "pricing"
-intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
-intro-image: /assets/image/service-banner2.png
-intro-button-text1: Lorem ipsum
-intro-button-link1:
+pricing-intro-header-text: Pricing
+pricing-intro-colored-text: ""
+pricing-intro-header-subtext: 
+pricing-intro-header-text: Affordable
+pricing-intro-colored-text: "pricing"
+pricing-intro-header-subtext: Telemore.ai seamlessly integrates with your employees screens to provide real-time insights into their workflow and productivity
+pricing-intro-image: /assets/image/service-banner2.png
+pricing-intro-button-text1: Lorem ipsum
+pricing-intro-button-link1:
 
-pricing-list:
+pricing-price-list:
   - title: FREE
     price: "$0"
     subtext: "/month"
@@ -37,8 +37,8 @@ pricing-list:
 
 
 
-support-header: Lorem ipsum dolor
-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
-support-image: /assets/image/support.png
+pricing-support-header: Lorem ipsum dolor
+pricing-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+pricing-support-image: /assets/image/support.png
 
     
