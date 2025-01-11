@@ -10,7 +10,7 @@ nav:
     isDropDown: true
     subMenu:
       - text: What is telemore
-        link: /services/
+        link: /products/
         desc: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla posuere nec sapien vitae vestibulum.
       - text: What is telemore
         link: /services/
