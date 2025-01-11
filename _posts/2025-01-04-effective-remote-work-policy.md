@@ -1,6 +1,12 @@
-**Meta Title:** How to Create a Remote Work Policy with Monitoring Tools
-
-**Meta Description:** Discover how to create a remote work policy that ensures productivity, compliance, and employee privacy when using monitoring tools.
+---
+layout: blog
+title:  "How to Create a Remote Work Policy with Monitoring Tools"
+description: "Discover how to create a remote work policy that ensures productivity, compliance, and employee privacy when using monitoring tools."
+date: 2025-01-05 08:54:18 +0800
+categories:
+author: Kevin Zhou
+image: /assets/image/blog2.png
+---
 
 # How to Create an Effective Remote Work Policy with Monitoring Tools
 
