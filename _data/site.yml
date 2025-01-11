@@ -52,13 +52,15 @@ intro-button-link2:
 
 home-company-header: Built with Industry Experience From
 home-company-list:
-  - image: /assets/image/company-placeholder.svg
+  - image: /assets/image/aws_logo.png
     link: #
-  - image: /assets/image/company-placeholder.svg
+  - image: /assets/image/sig_logo.png
     link: #
-  - image: /assets/image/company-placeholder.svg
+  - image: /assets/image/capone_logo.png
     link: #
-  - image: /assets/image/company-placeholder.svg
+  - image: /assets/image/tr_logo.png
+    link: #
+  - image: /assets/image/emerson_logo.png
     link: #
 
 

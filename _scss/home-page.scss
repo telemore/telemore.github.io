@@ -100,7 +100,11 @@
             .company-item{
                 .company-link{
                     .company-image{
-                        height: 100px;
+                        height: 40px;
+
+                        &.logo-4{
+                            height: 25px;
+                        }
                     }
                 }
             }
