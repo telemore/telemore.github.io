@@ -10,9 +10,9 @@
         <div class="header-container">
             <h3 class="header text-center">{{ site.data.site.home-company-header }}</h3>
         </div>
-        <div class="row justify-content-evenly align-items-center">
+        <div class="row justify-content-evenly align-items-center mt-3">
             {% for item in site.data.site.home-company-list %}
-            <div class="col-md-2 col-1 company-item text-center mt-3" data-aos="fade-up">
+            <div class="col-md-2 col-1 company-item text-center" data-aos="fade-up">
                 <a href="{{ item.link }}" class="company-link d-inline-block" target="_blank">
                     <img src="{{ item.image }}" class="company-image logo-{{ forloop.index }} center-block"/>
                 </a>
