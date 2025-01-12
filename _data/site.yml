@@ -64,20 +64,20 @@ home-company-list:
     link: #
 
 
-home-service-header: Insights That Matter, Not Just Metrics
-home-service-description: "Unlike traditional tools that overwhelm you with raw data and metrics, Telemore offers higher-level summarization of what employees did, and coaching on how to perform better. Our platform helps you optimize workflows and boost productivity without the noise."
+home-service-header: Insights that Matter, not just Metrics
+home-service-description: "Go beyond raw metrics with Telemore. Our platform transforms complex data into actionable insights and personalized coaching, empowering your team to perform better and optimize workflows—without the clutter of traditional tools"
 home-service-list:
-  - subheader: what does this do?
-    title: Unlike other employee monitoring firms,
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+  - subheader: Managers
+    title: See employee activity logs with AI feedback
+    description: Get detailed insights into workflows with AI-driven feedback. Using an LLM model and secure access to screens and telemetry, Telemore delivers precise summaries and actionable recommendations to boost productivity
     image: /assets/image/service1.png
-  - subheader: Lorem ipsum dolor
-    title: Lorem ipsum dolor sit amet
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+  - subheader: Employees
+    title: Control monitoring and get help with tasks
+    description: Toggle the monitoring to start working timer and get personalized guidance and recommendations on their tasks. Screen Recordings are used to monitor actions
     image: /assets/image/service2.png
-  - subheader: Lorem ipsum dolor
-    title: Lorem ipsum dolor sit amet
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis. 
+  - subheader: Managers
+    title: Setup alerts and rules to enforce compliance & productivity
+    description: Built-in detectors set up guardrails for your employees when they are on working time. Receive alerts on infractions to provide visibility
     image: /assets/image/service3.png
 
 home-integration-header: "Built with Security and Privacy First"
@@ -88,7 +88,7 @@ home-integration-list:
     description: All data (stored & in-transit) is encrypted using industry-leading standards such as AES-256 and TLS 1.3, ensuring sensitive information is safeguarded against unauthorized access.
     icon: /assets/image/icon1.png
   - title: Privacy Adherence
-    description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+    description: We respect employee's privacy—we never record the webcam or microphone. Most of our monitoring centers around screenshot video data and metadata from running processes to provide the input to insights generated.
     icon: /assets/image/icon2.png
   - title: SOC 2 Type II/ ISO 27001 Certification In-Progress
     description: Estimated for mid-2025. We are currently working with our compliance specialist to document procedures and submit evidence of controls for the auditor.
