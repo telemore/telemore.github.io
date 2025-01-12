@@ -1,21 +1,70 @@
 <div class="section-container container mb-5">
     <div class="header-container">
-        <h2 class="header text-center">{{ site.data.contact-us.contact-form-header }}</h2> 
+        <h2 class="header text-center">{{ site.data.contact-us.contact-form-header }}</h2>
         <p class="header-description text-center">{{ site.data.contact-us.contact-form-description }}</p>
     </div>
 
     <div class="form-container col-8 offset-2">
-        <form>
+        <form id="contactForm">
             <div class="input-group mb-3">
-                <input type="text" class="form-control me-4" placeholder="Full Name" aria-label="Full Name">
-                <input type="email" class="form-control" placeholder="Email Address" aria-label="Email Address">
+                <input type="text" id="fullName" name="fullName" class="form-control me-4" placeholder="Full Name" aria-label="Full Name" required>
+                <input type="email" id="email" name="email" class="form-control" placeholder="Email Address" aria-label="Email Address" required>
             </div>
 
             <div class="mb-3">
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Inquiry" rows="4"></textarea>
+                <textarea id="inquiry" name="inquiry" class="form-control" placeholder="Inquiry" rows="4" required></textarea>
             </div>
 
             <button type="submit" class="btn btn-primary">Submit</button>
         </form>
     </div>
 </div>
+
+<script>
+    document.getElementById('contactForm').addEventListener('submit', async function (event) {
+        event.preventDefault();
+
+        const apiKey = 'pAJlDtZJU38fySS8HPhz36N10hk0fCt6agYjRfrM'; // Your actual API key
+        const apiUrl = 'https://34cpual1p9.execute-api.us-east-1.amazonaws.com/prod/send-email'; // Your API Gateway endpoint
+
+        // Collect form data
+        const fullName = document.getElementById('fullName').value.trim();
+        const email = document.getElementById('email').value.trim();
+        const inquiry = document.getElementById('inquiry').value.trim();
+
+        // Validate fields
+        if (!fullName || !email || !inquiry) {
+            alert('All fields are required!');
+            return;
+        }
+
+        const requestData = {
+            fullName,
+            email,
+            inquiry
+        };
+
+        try {
+            const response = await fetch(apiUrl, {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'x-api-key': apiKey
+                },
+                body: JSON.stringify(requestData)
+            });
+
+            const result = await response.json();
+            if (response.ok) {
+                alert('Email sent successfully!');
+                // Optionally clear the form
+                document.getElementById('contactForm').reset();
+            } else {
+                alert('Failed to send email: ' + (result.message || 'Unknown error'));
+            }
+        } catch (error) {
+            console.error('Error sending email:', error);
+            alert('An error occurred. Please try again later.');
+        }
+    });
+</script>
