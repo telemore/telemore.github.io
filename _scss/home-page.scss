@@ -92,22 +92,6 @@
             background-color: #e6f4fe;
         }
 
-        .company-list-container{
-            .header-container{
-                background-color: transparent;
-            }
-
-            .company-item{
-                .company-image{
-                    height: 30px;
-
-                    &.logo-4{
-                        height: 25px;
-                    }
-                }
-            }
-        }
-        
         .container-list{
             padding-top: 40px;
 
@@ -242,5 +226,23 @@
     .support-description{
         font-size: 18px;
         line-height: 1.8;
+    }
+}
+
+#company{
+     .company-list-container{
+        .header-container{
+            background-color: transparent;
+        }
+
+        .company-item{
+            .company-image{
+                height: 30px;
+
+                &.logo-4{
+                    height: 25px;
+                }
+            }
+        }
     }
 }
