@@ -1,0 +1,57 @@
+how-it-work-header: How Telemore Works
+how-it-work-description: "Telemore is designed to empower teams with actionable insights while maintaining simplicity.
+                          With a seamless setup, employees can quickly gain access to personalized productivity recommendations,
+                          and managers can view team trends at a glance.
+                          Our AI-powered platform transforms your team's workflows for better efficiency and focus."
+how-it-work-list:
+  - title: "Step 1:"
+    description: "Install Telemore on employee devices with minimal effort."
+  - title: "Step 2:"
+    description: "Real-time productivity data is collected and analyzed by our generative AI."
+  - title: "Step 3:"
+    description: "Employees and managers receive actionable insights to improve workflow and collaboration."
+
+how-it-work-service-header: Our Services
+how-it-work-service-list:
+  - title: "Employee Productivity Monitoring:"
+    description: "Gain visibility into task progress, engagement, and application usage."
+  - title: "AI-Powered Insights:"
+    description: "Receive daily summaries, task prioritization tips, and focus recommendations tailored to individual and team needs."
+  - title: "Hybrid Team Support:"
+    description: "Ensure productivity and alignment across remote, hybrid, and in-office teams."
+how-it-work-service-sub: "Our goal is to enhance your team's workflow while respecting privacy and minimizing distractions."
+
+how-it-work-integration-header: Seamless Integration
+how-it-work-integration-description: "Telemore integrates effortlessly into your existing workflow with compatibility across:"
+how-it-work-integration-list:
+  - title: "Windows, macOS, and Linux operating systems."
+  - title: "Popular project management tools and productivity platforms."
+  - title: "Custom workflows, with optional API access for advanced use cases."
+how-it-work-integration-sub: "Setup is quick and intuitive, with no steep learning curve for managers or employees."
+
+how-it-work-security-header: "Security & Privacy"
+how-it-work-security-description: "We understand that security and privacy are non-negotiable. Telemore is built with enterprise-grade protections, ensuring your team's data remains secure and private:"
+how-it-work-security-list:
+  - title: "Data Encryption:"
+    description: "End-to-end encryption (AES-256) safeguards all data."
+  - title: "Minimal Data Collection:"
+    description: "Only task and application usage data is collected, avoiding personal or sensitive information."
+  - title: "Compliance:"
+    description: "Fully compliant with GDPR, CCPA, and other global privacy standards."
+how-it-work-security-sub: "Transparency is at the core of our platform. Employees can view what’s being monitored and understand how it benefits their productivity."
+
+how-it-work-support-header: "Support & Assistance"
+how-it-work-support-description: "Our dedicated support team is here to ensure your success with Telemore:"
+how-it-work-support-list:
+  - title: "Onboarding Assistance:"
+    description: "Get step-by-step guidance to help your team get started quickly."
+  - title: "24/7 Support:"
+    description: "Reach us anytime via email or chat for technical assistance or product questions."
+  - title: "Learning Resources:"
+    description: "Access detailed guides, FAQs, and best practices to maximize your use of Telemore."
+how-it-work-support-sub: "We’re committed to your team's productivity and growth every step of the way."
+
+
+  
+
+
