@@ -10,7 +10,7 @@ nav:
     isDropDown: true
     subMenu:
       - text: How it Works
-        link: /product/
+        link: /how-it-works/
         desc: Discover how Telemore seamlessly integrates with employees’ devices to provide actionable insights and optimize productivity
       - text: Security & Privacy
         link: /security/
