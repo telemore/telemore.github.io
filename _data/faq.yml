@@ -1,0 +1,54 @@
+faq-header: "General Questions"
+faq-list:
+  - title: "What is Telemore?"
+    description: "Telemore is an AI-powered productivity platform that provides actionable insights to help teams work smarter. It tracks essential metrics like task progress, application usage, and focus patterns to enhance productivity without being intrusive."
+  - title: "Who is Telemore designed for?"
+    description: "Telemore is built for organizations of all sizes, from small teams to large enterprises. It’s especially effective for hybrid and remote teams looking to optimize productivity and streamline workflows."
+  - title: "How does Telemore benefit employees?"
+    description: "Employees receive personalized productivity recommendations, insights into their work patterns, and focus tips, helping them achieve more while staying balanced and engaged."
+
+
+faq-feature-header: "Features and Capabilities"
+faq-feature-list:
+  - title: "What insights does Telemore provide?"
+    description: "Telemore offers daily productivity summaries, task prioritization recommendations, focus tips, and detailed team performance dashboards for managers."
+  - title: "Does Telemore support hybrid or remote teams?"
+    description: "Yes, Telemore is designed to provide actionable insights regardless of where employees work. It ensures remote and hybrid teams stay aligned and productive."
+  - title: "Is the platform customizable?"
+    description: "Absolutely. Organizations can tailor monitoring settings, reports, and notifications to fit their unique workflows and privacy policies."
+
+faq-security-header: "Security and Privacy"
+faq-security-list:
+  - title: "How does Telemore ensure data security?"
+    description: "Telemore uses AES-256 encryption for data in transit and at rest, along with multi-factor authentication and access controls to safeguard user information."
+  - title: "What type of data does Telemore collect?"
+    description: "Telemore collects productivity-related data, such as task progress, application usage, and engagement patterns. Personal data like messages, emails, and keystrokes are not collected."
+  - title: "Is Telemore compliant with privacy regulations?"
+    description: "Yes. Telemore adheres to global standards like GDPR and CCPA, ensuring transparency and legal compliance in all data-handling practices."
+
+faq-onboarding-header: "Setup and Onboarding"
+faq-onboarding-list:
+  - title: "How long does setup take?"
+    description: "Setup typically takes less than 30 minutes. Our onboarding specialists are available to guide you through the process step by step."
+  - title: "What devices and platforms does Telemore support?"
+    description: "Telemore is compatible with Windows, macOS, and Linux devices. Mobile support is currently in development and will be released soon."
+  - title: "Is training required to use Telemore?"
+    description: "Telemore is intuitive and user-friendly, with no steep learning curve. However, we provide detailed guides and optional training sessions to ensure your team gets the most out of the platform."
+
+faq-pricing-header: "Pricing and Trials"
+faq-pricing-list:
+  - title: "Is there a free trial available?"
+    description: "Yes! Telemore offers a free trial so you can explore the platform and see how it benefits your team before committing."
+  - title: "How is Telemore priced?"
+    description: "Telemore uses a tiered pricing model based on the number of users and features. Contact our team for a customized quote tailored to your needs."
+  - title: "Are there discounts for large teams or annual plans?"
+    description: "Yes, we offer discounts for large teams and organizations that choose annual billing. Reach out to our sales team to learn more."
+
+faq-pricing-header: "Support and Assistance"
+faq-pricing-list:
+  - title: "What support options are available?"
+    description: "We offer 24/7 support through email and chat. Our knowledge base also provides extensive resources, including FAQs, guides, and troubleshooting tips."
+  - title: "Can I get live support during onboarding?"
+    description: "Yes! Our onboarding team provides live support and walkthroughs to ensure a smooth implementation process for your team."
+  - title: "How do I contact the support team?"
+    description: "You can reach us at any time via our support portal, email, or chat directly through the Telemore platform."

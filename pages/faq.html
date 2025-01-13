@@ -2,135 +2,96 @@
 layout: pages-layout/faq
 permalink: /faq/
 ---
-
 <section id="general">
-  <div class="section-header">
-    <h2>General Questions</h2>
-  </div>
-  <div class="section-content">
-    <ul>
-      <li>
-        <strong>What is Telemore?</strong>
-        <p>Telemore is an AI-powered productivity platform that provides actionable insights to help teams work smarter. It tracks essential metrics like task progress, application usage, and focus patterns to enhance productivity without being intrusive.</p>
-      </li>
-      <li>
-        <strong>Who is Telemore designed for?</strong>
-        <p>Telemore is built for organizations of all sizes, from small teams to large enterprises. It’s especially effective for hybrid and remote teams looking to optimize productivity and streamline workflows.</p>
-      </li>
-      <li>
-        <strong>How does Telemore benefit employees?</strong>
-        <p>Employees receive personalized productivity recommendations, insights into their work patterns, and focus tips, helping them achieve more while staying balanced and engaged.</p>
-      </li>
-    </ul>
+  <div class="section-container container">
+    <div class="header-container">
+      <h2 class="header text-center">{{ site.data.faq.faq-header }}</h2>
+    </div>
+    <div class="content-container">
+      {% for item in site.data.faq.faq-list %}
+      <div class="content-item{% if forloop.last %}mt-4 mb-0{% else %}mt-4 mb-5{% endif %}">
+        <h4 class="content-title mb-1">{{ item.title }}</h4>
+        <p class="content-description">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
+
+<hr class="section-divider mt-3 mb-3">
 
 <section id="features">
-  <div class="section-header">
-    <h2>Features and Capabilities</h2>
-  </div>
-  <div class="section-content">
-    <ul>
-      <li>
-        <strong>What insights does Telemore provide?</strong>
-        <p>Telemore offers daily productivity summaries, task prioritization recommendations, focus tips, and detailed team performance dashboards for managers.</p>
-      </li>
-      <li>
-        <strong>Does Telemore support hybrid or remote teams?</strong>
-        <p>Yes, Telemore is designed to provide actionable insights regardless of where employees work. It ensures remote and hybrid teams stay aligned and productive.</p>
-      </li>
-      <li>
-        <strong>Is the platform customizable?</strong>
-        <p>Absolutely. Organizations can tailor monitoring settings, reports, and notifications to fit their unique workflows and privacy policies.</p>
-      </li>
-    </ul>
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.faq.faq-feature-header }}</h4>
+      {% for item in site.data.faq.faq-feature-list %}
+      <div class="content-item {% if forloop.last %}mt-4 mb-0{% else %}mt-4 mb-5{% endif %}">
+        <h4 class="content-title mb-1">{{ item.title }}</h4>
+        <p class="content-description">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
+
+<hr class="section-divider mt-3 mb-3">
 
 <section id="security-privacy">
-  <div class="section-header">
-    <h2>Security and Privacy</h2>
-  </div>
-  <div class="section-content">
-    <ul>
-      <li>
-        <strong>How does Telemore ensure data security?</strong>
-        <p>Telemore uses AES-256 encryption for data in transit and at rest, along with multi-factor authentication and access controls to safeguard user information.</p>
-      </li>
-      <li>
-        <strong>What type of data does Telemore collect?</strong>
-        <p>Telemore collects productivity-related data, such as task progress, application usage, and engagement patterns. Personal data like messages, emails, and keystrokes are not collected.</p>
-      </li>
-      <li>
-        <strong>Is Telemore compliant with privacy regulations?</strong>
-        <p>Yes. Telemore adheres to global standards like GDPR and CCPA, ensuring transparency and legal compliance in all data-handling practices.</p>
-      </li>
-    </ul>
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.faq.faq-security-header }}</h4>
+      {% for item in site.data.faq.faq-security-list %}
+      <div class="content-item {% if forloop.last %}mt-4 mb-0{% else %}mt-4 mb-5{% endif %}">
+        <h4 class="content-title mb-1">{{ item.title }}</h4>
+        <p class="content-description">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
+
+<hr class="section-divider mt-3 mb-3">
 
 <section id="setup-onboarding">
-  <div class="section-header">
-    <h2>Setup and Onboarding</h2>
-  </div>
-  <div class="section-content">
-    <ul>
-      <li>
-        <strong>How long does setup take?</strong>
-        <p>Setup typically takes less than 30 minutes. Our onboarding specialists are available to guide you through the process step by step.</p>
-      </li>
-      <li>
-        <strong>What devices and platforms does Telemore support?</strong>
-        <p>Telemore is compatible with Windows, macOS, and Linux devices. Mobile support is currently in development and will be released soon.</p>
-      </li>
-      <li>
-        <strong>Is training required to use Telemore?</strong>
-        <p>Telemore is intuitive and user-friendly, with no steep learning curve. However, we provide detailed guides and optional training sessions to ensure your team gets the most out of the platform.</p>
-      </li>
-    </ul>
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.faq.faq-onboarding-header }}</h4>
+      {% for item in site.data.faq.faq-onboarding-list %}
+      <div class="content-item {% if forloop.last %}mt-4 mb-0{% else %}mt-4 mb-5{% endif %}">
+        <h4 class="content-title mb-1">{{ item.title }}</h4>
+        <p class="content-description">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
 
+<hr class="section-divider mt-3 mb-3">
+
 <section id="pricing">
-  <div class="section-header">
-    <h2>Pricing and Trials</h2>
-  </div>
-  <div class="section-content">
-    <ul>
-      <li>
-        <strong>Is there a free trial available?</strong>
-        <p>Yes! Telemore offers a free trial so you can explore the platform and see how it benefits your team before committing.</p>
-      </li>
-      <li>
-        <strong>How is Telemore priced?</strong>
-        <p>Telemore uses a tiered pricing model based on the number of users and features. Contact our team for a customized quote tailored to your needs.</p>
-      </li>
-      <li>
-        <strong>Are there discounts for large teams or annual plans?</strong>
-        <p>Yes, we offer discounts for large teams and organizations that choose annual billing. Reach out to our sales team to learn more.</p>
-      </li>
-    </ul>
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.faq.faq-pricing-header }}</h4>
+      {% for item in site.data.faq.faq-pricing-list %}
+      <div class="content-item {% if forloop.last %}mt-4 mb-0{% else %}mt-4 mb-5{% endif %}">
+        <h4 class="content-title mb-1">{{ item.title }}</h4>
+        <p class="content-description">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
 
 <section id="support">
-  <div class="section-header">
-    <h2>Support and Assistance</h2>
-  </div>
-  <div class="section-content">
-    <ul>
-      <li>
-        <strong>What support options are available?</strong>
-        <p>We offer 24/7 support through email and chat. Our knowledge base also provides extensive resources, including FAQs, guides, and troubleshooting tips.</p>
-      </li>
-      <li>
-        <strong>Can I get live support during onboarding?</strong>
-        <p>Yes! Our onboarding team provides live support and walkthroughs to ensure a smooth implementation process for your team.</p>
-      </li>
-      <li>
-        <strong>How do I contact the support team?</strong>
-        <p>You can reach us at any time via our support portal, email, or chat directly through the Telemore platform.</p>
-      </li>
-    </ul>
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.faq.faq-support-header }}</h4>
+      {% for item in site.data.faq.faq-support-list %}
+      <div class="content-item {% if forloop.last %}mt-4 mb-0{% else %}mt-4 mb-5{% endif %}">
+        <h4 class="content-title mb-1">{{ item.title }}</h4>
+        <p class="content-description">{{ item.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
