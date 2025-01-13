@@ -1,0 +1,52 @@
+data-security-header: "Data Security"
+data-security-description: "Telemore is built with security as a foundational pillar, ensuring that all collected data is protected at every step. We employ industry-leading security measures to safeguard your information:"
+data-security-list:
+  - title: "End-to-End Encryption"
+    description: "Data is encrypted in transit and at rest using AES-256 encryption to ensure it remains secure and inaccessible to unauthorized parties."
+  - title: "Secure Authentication "
+    description: "Multi-factor authentication (MFA) and strict access controls protect user accounts and administrative access."
+  - title: "ISO-Certified Practices"
+    description: "Telemore follows ISO 27001 standards to deliver world-class information security management."
+data-security-sub: "Our robust infrastructure ensures that your team's data is always protected against breaches and vulnerabilities."
+
+data-security-collection-header: "Minimal Data Collection"
+data-security-collection-description: "Telemore adheres to a privacy-first philosophy. We collect only the data necessary to deliver actionable productivity insights:"
+data-security-collection-list:
+  - title: "What We Collect"
+    description: "Task progress, application usage patterns, idle times, and engagement metrics."
+  - title: "What We Don’t Collect"
+    description: "Personal messages, email content, file data, or keystrokes. Telemore respects employee privacy by avoiding intrusive data collection practices"
+data-security-collection-sub: "This ensures that while we help teams stay productive, we protect individual privacy and personal information at all times."
+
+data-security-privacy-header: "Privacy and Transparency"
+data-security-privacy-description: "We believe that trust is built through transparency. That’s why Telemore provides employees and managers with clear, accessible information on what data is being monitored and how it’s used:"
+data-security-privacy-list:
+  - title: "Employee Dashboards"
+    description: "Employees can view their own productivity data and insights, ensuring clarity about what is being tracked."
+  - title: "Customizable Monitoring"
+    description: "Employers can adjust what is monitored to meet organizational and legal requirements."
+  - title: "Usage Policies"
+    description: "Our platform allows companies to define and share monitoring policies with their teams to align expectations and build trust."
+data-security-privacy-sub: "Our goal is to ensure that productivity insights are delivered ethically and transparently."
+
+data-security-compliance-header: "Global Compliance"
+data-security-compliance-description: "Telemore is fully compliant with major international data privacy regulations, ensuring your organization stays protected and legally compliant:"
+data-security-compliance-list:
+  - title: "GDPR Compliance"
+    description: "Adheres to strict European Union regulations for data privacy and security."
+  - title: "CCPA Compliance"
+    description: "Meets California Consumer Privacy Act standards, ensuring transparency and control for users."
+  - title: "Regular Audits"
+    description: "Telemore undergoes regular security audits to maintain compliance with global standards."
+data-security-compliance-sub: "Our commitment to compliance ensures that your data is handled with care, no matter where your team operates."
+
+data-security-retention-header: "Data Retention and Deletion"
+data-security-retention-description: "Telemore offers customizable data retention policies to align with your organization’s needs. We only store data for as long as it’s needed to deliver productivity insights:"
+data-security-retention-list:
+  - title: "Retention Policies"
+    description: "Set retention periods that align with your internal guidelines or legal requirements."
+  - title: "Data Purging"
+    description: "Upon request, all data can be permanently deleted from our servers to ensure complete removal."
+  - title: "Ownership of Data"
+    description: "Your organization retains full ownership and control over its data at all times."
+data-security-retention-sub: "With Telemore, you remain in control of your data while ensuring compliance with retention policies."
