@@ -1,230 +1,79 @@
-#cover{
-    position: relative;
-
-    .content-container{
-        align-items: center;
-        padding-top: 30px;
-        padding-bottom: 30px;
-
-        .left-section{
-            .intro-container{
-                .intro-header{
-                    font-family: "Poppins", Sans-serif;
-                    font-size: 54px;
-                    font-weight: 700;
-                    margin-bottom: 15px;
-                    
-                    .intro-colored-text{
-                        color: #0984e3;
-                    }
-                }
-
-                .intro-description{
-                    font-size: 18px;
-                    font-weight: 400;
-                    line-height: 1.8;
-                }
-
-                .button-container{
-                    margin-top: 30px;
-
-                    .button-wrapper{
-                        grid-column-gap: 1rem;
-                        grid-row-gap: 1rem;
-                        align-items: center;
-                        display: flex;
-                        flex-flow: wrap;
-                        justify-content: flex-start;
-
-                        .intro-button{
-                            background-color: #0984e3;
-                            border-radius: .5rem;
-                            color: #fff;
-                            flex: none;
-                            font-size: 16px;
-                            font-weight: 600;
-                            line-height: 1.5;
-                            max-height: 3.75rem;
-                            max-width: 11.875rem;
-                            padding: 1rem 2.375rem;
-                            text-align: center;
-                            width: 100%;
-                            text-decoration: none;
-                            transition: all .2s linear;
-                            -webkit-transition: all .2s linear;
-                            -mos-transition: all .2s linear;
-                            -o-transition: all .2s linear;
-                            -ms-transition: all .2s linear;
-
-
-                            &.trial-button{
-                                background-color: transparent;
-                                border: 1px solid #0984e3;
-                                color: #0984e3;
-                            }
-
-                            &:hover{
-                                background-color: #0672c5;
-
-                                &.trial-button{
-                                    background-color: #0672c5;
-                                    border: 1px solid #0672c5;
-                                    color: #ffffff;
-                                }
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    }  
+.section-divider{
+    color: #043962;
+    max-width: 800px;
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
 }
 
-#service{
-    position: relative;
-
-    .section-container{
-        padding-top: 0;
-
-        .header-container{
-            padding-top: 50px;
-            padding-bottom: 50px;
-            background-color: #e6f4fe;
-        }
-        
-        .container-list{
-            padding-top: 40px;
-
-            .content-wrapper{
-                &.item-2{
-                    background-color: #043962;
-
-                    .content-container{
-                        .right-section{ 
-                            .service-content-container{
-                                .service-subheader{
-                                    color: #6cd964;
-                                }
-
-                                .service-title{
-                                    color: #ffffff;
-                                }
-
-                                .service-description{
-                                    color: #ffffff;
-                                }
-                            }
-                        }
-                    
-                    }
-                }
-
-                .content-container{
-                    padding-top: 50px;
-                    padding-bottom: 50px;
-                    align-items: center;
-
-                    .left-section{
-                        padding-left: 30px;
-                        padding-right: 30px;
-
-                        .service-image{
-                            max-width: 85%;
-                            min-width: 75%;
-                        }
-
-                    }
-
-                    .right-section{
-                        padding-left: 30px;
-                        padding-right: 30px;
-
-                        .service-content-container{
-                            .service-subheader{
-                                color: #0984e3;
-                                font-size: 18px;
-                                font-weight: 600;
-                                margin-bottom: 10px;
-                            }
-
-                            .service-title{
-                                font-size: 48px;
-                                font-weight: 600;
-                                line-height: 1.2;
-                                margin-bottom: 15px;
-                                font-family: "Poppins", Sans-serif;
-                            }
-
-                            .service-description{
-                                font-size: 18px;
-                                line-height: 1.8;
-                            }
-                        }
-                    }
-                }
-            }
-        }
-    } 
-}
-
-#integration{
-    position: relative;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    background-color: #e6f4fe;
-
-    .section-container{
-        padding-top: 40px;
-        padding-bottom: 40px;
+.header-container{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    
+    .header{
+        font-family: "Poppins", Sans-serif;
+        font-size: 60px;
+        font-weight: 700;
+        line-height: 90px;
+        letter-spacing: .02em;
     }
 
-    .header-container{
-        padding-bottom: 0;
-    }
-
-    .integration-list-container{
-        .integration-item{
-            .integration-icon{
-            }
-            .integration-title{
-                font-family: Lato;
-                font-size: 20px;
-                font-weight: 600;
-                line-height: 30px;
-                letter-spacing: 0.02em;
-                text-align: left;
-
-            }
-            .integration-description{
-                font-family: Lato;
-                font-size: 16px;
-                font-weight: 400;
-                line-height: 24px;
-                letter-spacing: 0.02em;
-                text-align: left;
-
-            }
-        }
+    .header-description{ 
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 1.8;
+        margin-bottom: 0;
+        max-width: 85%;
+        min-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
-#support{
-    .support-image{
-        max-width: 95%;
-        min-width: 85%;
-    }
+.content-container{
+    width: 100%;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
 
-    .support-title{
+    .content-header{
         font-size: 48px;
         font-weight: 600;
         line-height: 1.2;
-        margin-bottom: 15px;
         font-family: "Poppins", Sans-serif;
     }
+    
+    .content-title{
+        font-family: "Poppins", Sans-serif;
+        font-size: 20px;
+        // font-weight: 600;
+        line-height: 1.2;
+        font-family: "Poppins", Sans-serif;
+        color: #0984e3;
 
-    .support-description{
+        &.step{
+            color: #0984e3;
+            font-size: 16px;
+            line-height: normal;
+            margin-bottom: 0 !important;
+
+        }
+    }
+
+    .content-description{
+        font-family: Lato;
         font-size: 18px;
+        font-weight: 400;
+        margin-bottom: 0;
+    }
+
+    .content-sub{
+        font-family: Lato;
+        font-size: 18px;
+        font-weight: 400;
         line-height: 1.8;
+        margin-bottom: 0;
     }
 }
+

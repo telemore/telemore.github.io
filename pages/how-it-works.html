@@ -3,75 +3,95 @@ layout: pages-layout/product
 permalink: /how-it-works/
 ---
 
-<section id="how-it-works">
-  <div class="section-header">
-    <h2>How Telemore Works</h2>
-  </div>
-  <div class="section-content">
-    <p>Telemore is designed to empower teams with actionable insights while maintaining simplicity. With a seamless setup, employees can quickly gain access to personalized productivity recommendations, and managers can view team trends at a glance. Our AI-powered platform transforms your team's workflows for better efficiency and focus.</p>
-    <ul>
-      <li><strong>Step 1:</strong> Install Telemore on employee devices with minimal effort.</li>
-      <li><strong>Step 2:</strong> Real-time productivity data is collected and analyzed by our generative AI.</li>
-      <li><strong>Step 3:</strong> Employees and managers receive actionable insights to improve workflow and collaboration.</li>
-    </ul>
+<section id="cover">
+  <div class="section-container container">
+    <div class="header-container">
+      <h2 class="header text-center">{{ site.data.how-it-works.how-it-work-header }}</h2>
+      <p class="header-description text-center">{{ site.data.how-it-works.how-it-work-description }}</p>
+    </div>
+
+    <div class="content-container">
+      {% for step in site.data.how-it-works.how-it-work-list %}
+      <div class="content-item mt-3 mb-3">
+        <h4 class="content-title mb-0 step">{{ step.title }}</h4>
+        <p class="content-description">{{ step.description }}</p>
+      </div>
+      {% endfor %}
+    </div>
   </div>
 </section>
 
-<section id="service">
-  <div class="section-header">
-    <h2>Our Services</h2>
-  </div>
-  <div class="section-content">
-    <ul>
-      <li><strong>Employee Productivity Monitoring:</strong> Gain visibility into task progress, engagement, and application usage.</li>
-      <li><strong>AI-Powered Insights:</strong> Receive daily summaries, task prioritization tips, and focus recommendations tailored to individual and team needs.</li>
-      <li><strong>Hybrid Team Support:</strong> Ensure productivity and alignment across remote, hybrid, and in-office teams.</li>
-    </ul>
-    <p>Our goal is to enhance your team's workflow while respecting privacy and minimizing distractions.</p>
+<hr class="section-divider mt-5 mb-5">
+
+<section id="our-services">
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.how-it-works.how-it-work-service-header }}</h4>
+        {% for item in site.data.how-it-works.how-it-work-service-list %}
+        <div class="content-item mt-4 mb-5">
+          <h4 class="content-title mb-1">{{ item.title }}</h4>
+          <p class="content-description">{{ item.description }}</p>
+        </div>
+        {% endfor %}
+      <p class="content-sub">{{ site.data.how-it-works.how-it-work-service-sub }}</p>
+    </div>
   </div>
 </section>
+
+<hr class="section-divider mt-5 mb-5">
 
 <section id="integration">
-  <div class="section-header">
-    <h2>Seamless Integration</h2>
-  </div>
-  <div class="section-content">
-    <p>Telemore integrates effortlessly into your existing workflow with compatibility across:</p>
-    <ul>
-      <li>Windows, macOS, and Linux operating systems.</li>
-      <li>Popular project management tools and productivity platforms.</li>
-      <li>Custom workflows, with optional API access for advanced use cases.</li>
-    </ul>
-    <p>Setup is quick and intuitive, with no steep learning curve for managers or employees.</p>
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.how-it-works.how-it-work-integration-header }}</h4>
+      <p class="content-description">{{ site.data.how-it-works.how-it-work-integration-description }}</p>
+        <ul>
+          {% for item in site.data.how-it-works.how-it-work-integration-list %}
+          <li class="content-item mt-4 mb-4">
+            <h4 class="content-description mb-1">{{ item.title }}</h4>
+          </li>
+          {% endfor %}
+        </ul>
+
+      <p class="content-sub">{{ site.data.how-it-works.how-it-work-integration-sub }}</p>
+    </div>
   </div>
 </section>
 
-<section id="security-and-privacy">
-  <div class="section-header">
-    <h2>Security & Privacy</h2>
-  </div>
-  <div class="section-content">
-    <p>We understand that security and privacy are non-negotiable. Telemore is built with enterprise-grade protections, ensuring your team's data remains secure and private:</p>
-    <ul>
-      <li><strong>Data Encryption:</strong> End-to-end encryption (AES-256) safeguards all data.</li>
-      <li><strong>Minimal Data Collection:</strong> Only task and application usage data is collected, avoiding personal or sensitive information.</li>
-      <li><strong>Compliance:</strong> Fully compliant with GDPR, CCPA, and other global privacy standards.</li>
-    </ul>
-    <p>Transparency is at the core of our platform. Employees can view what’s being monitored and understand how it benefits their productivity.</p>
+<hr class="section-divider mt-5 mb-5">
+
+<section id="security">
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.how-it-works.how-it-work-security-header }}</h4>
+      <p class="content-description">{{ site.data.how-it-works.how-it-work-security-description }}</p>
+        {% for item in site.data.how-it-works.how-it-work-security-list %}
+        <div class="content-item mt-4 mb-5">
+          <h4 class="content-title mb-1">{{ item.title }}</h4>
+          <p class="content-description">{{ item.description }}</p>
+        </div>
+        {% endfor %}
+
+      <p class="content-sub">{{ site.data.how-it-works.how-it-work-security-sub }}</p>
+    </div>
   </div>
 </section>
+
+<hr class="section-divider mt-5 mb-5">
 
 <section id="support">
-  <div class="section-header">
-    <h2>Support & Assistance</h2>
-  </div>
-  <div class="section-content">
-    <p>Our dedicated support team is here to ensure your success with Telemore:</p>
-    <ul>
-      <li><strong>Onboarding Assistance:</strong> Get step-by-step guidance to help your team get started quickly.</li>
-      <li><strong>24/7 Support:</strong> Reach us anytime via email or chat for technical assistance or product questions.</li>
-      <li><strong>Learning Resources:</strong> Access detailed guides, FAQs, and best practices to maximize your use of Telemore.</li>
-    </ul>
-    <p>We’re committed to your team's productivity and growth every step of the way.</p>
+  <div class="section-container container">
+    <div class="content-container">
+      <h4 class="content-header mb-3">{{ site.data.how-it-works.how-it-work-support-header }}</h4>
+      <p class="content-description">{{ site.data.how-it-works.how-it-work-support-description }}</p>
+        {% for item in site.data.how-it-works.how-it-work-support-list %}
+        <div class="content-item mt-4 mb-5">
+          <h4 class="content-title mb-1">{{ item.title }}</h4>
+          <p class="content-description">{{ item.description }}</p>
+        </div>
+        {% endfor %}
+
+      <p class="content-sub mb-5">{{ site.data.how-it-works.how-it-work-support-sub }}</p>
+    </div>
   </div>
 </section>

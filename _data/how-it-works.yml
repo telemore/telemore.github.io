@@ -4,20 +4,20 @@ how-it-work-description: "Telemore is designed to empower teams with actionable 
                           and managers can view team trends at a glance.
                           Our AI-powered platform transforms your team's workflows for better efficiency and focus."
 how-it-work-list:
-  - title: "Step 1:"
+  - title: "Step 1"
     description: "Install Telemore on employee devices with minimal effort."
-  - title: "Step 2:"
+  - title: "Step 2"
     description: "Real-time productivity data is collected and analyzed by our generative AI."
-  - title: "Step 3:"
+  - title: "Step 3"
     description: "Employees and managers receive actionable insights to improve workflow and collaboration."
 
 how-it-work-service-header: Our Services
 how-it-work-service-list:
-  - title: "Employee Productivity Monitoring:"
+  - title: "Employee Productivity Monitoring"
     description: "Gain visibility into task progress, engagement, and application usage."
-  - title: "AI-Powered Insights:"
+  - title: "AI-Powered Insights"
     description: "Receive daily summaries, task prioritization tips, and focus recommendations tailored to individual and team needs."
-  - title: "Hybrid Team Support:"
+  - title: "Hybrid Team Support"
     description: "Ensure productivity and alignment across remote, hybrid, and in-office teams."
 how-it-work-service-sub: "Our goal is to enhance your team's workflow while respecting privacy and minimizing distractions."
 
