@@ -1,4 +1,14 @@
 <footer>
+    <div class="social-media-container container mt-5 mb-3">
+        {% for social in site.data.site.footer-social-media %}
+        <div class="social-item">
+            <a href="{{ social.link }}" class="social-link" target="_blank">
+                <span class="fa-brands {{ social.icon }} social-icon"></span>
+            </a>
+        </div>
+        {% endfor %}
+    </div>
+
     <div class="border-top container">
         <div class="row align-items-center">
             <div class="col-6">

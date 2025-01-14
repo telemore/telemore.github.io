@@ -37,6 +37,16 @@ footer-policy: Privacy Policy
 footer-policy-link: /privacy/
 footer-tos: Terms of Service
 footer-tos-link: /terms/
+footer-social-media:
+  - icon: "fa-x-twitter"
+    link: https://x.com/
+  - icon: "fa-linkedin"
+    link: https://www.linkedin.com/
+  - icon: "fa-instagram"
+    link: https://www.instagram.com/
+  - icon: "fa-facebook"
+    link: https://www.facebook.com/
+ 
 
 home-intro-header-text: Generative AI Employee Productivity
 home-intro-colored-text: "Monitoring"
