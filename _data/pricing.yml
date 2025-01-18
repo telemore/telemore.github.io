@@ -3,13 +3,14 @@ pricing-intro-colored-text: ""
 pricing-intro-header-subtext: 
 pricing-intro-header-text: Temporarily
 pricing-intro-colored-text: "Free"
-pricing-intro-header-subtext: "We just launched—And appreciate your interest in us!
+pricing-intro-header-subtext: 
+  We just launched—And appreciate your interest in us!
   We are looking to onboard beta users to help us provide the best user experience for you.
-  As a token of our appreciation, we are making Telemore free to use during our beta phase. \n
+  As a token of our appreciation, we are making Telemore free to use during our beta phase.
+  
   
   Our plan in mind to charge a premium and enterprise tier to allow unlimited access. The enterprise tier will also
-  come with dedicated infrastructure deployment and SSO/SAML integration"
-
+  come with dedicated infrastructure deployment and SSO/SAML integration
 pricing-intro-image: /assets/image/pricing-demo.png
 pricing-intro-button-text1: Click to Sign In
 pricing-intro-button-link1: https:\\telemore.app
@@ -39,9 +40,6 @@ pricing-price-list:
       - text: 30 GB of storage
       - text: Phone and Email support
       - text: Help center access
-
-
-
 
 pricing-support-header: Lorem ipsum dolor
 pricing-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
