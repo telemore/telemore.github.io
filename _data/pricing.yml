@@ -3,7 +3,13 @@ pricing-intro-colored-text: ""
 pricing-intro-header-subtext: 
 pricing-intro-header-text: Temporarily
 pricing-intro-colored-text: "Free"
-pricing-intro-header-subtext: We just launched—And appreciate your interest in us! We are looking to onboard beta users to help us provide the best user experience for you. As a token of our appreciation, we are making Telemore free to use during our beta phase
+pricing-intro-header-subtext: "We just launched—And appreciate your interest in us!
+  We are looking to onboard beta users to help us provide the best user experience for you.
+  As a token of our appreciation, we are making Telemore free to use during our beta phase. \n
+  
+  Our plan in mind to charge a premium and enterprise tier to allow unlimited access. The enterprise tier will also
+  come with dedicated infrastructure deployment and SSO/SAML integration"
+
 pricing-intro-image: /assets/image/pricing-demo.png
 pricing-intro-button-text1: Click to Sign In
 pricing-intro-button-link1: https:\\telemore.app
