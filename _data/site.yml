@@ -52,7 +52,7 @@ home-intro-header-text: Generative AI Employee Productivity
 home-intro-colored-text: "Monitoring"
 home-intro-header-subtext: Telemore installs on Employee Laptops, and provides Insights on Tasks and User Activity (Proof of Work) with Actionable Recommendations
 home-intro-image: /assets/image/hero-image.png
-
+home-intro-video: /assets/video/landing_page_sample.mp4
 home-intro-button-text1: Get Started for Free
 home-intro-button-link1: https://telemore.app
 
@@ -107,6 +107,7 @@ home-integration-list:
 home-support-header: Why use Telemore
 home-support-description: At Telemore, we prioritize empowering businesses with tools that enhance productivity, maintain transparency, and respect employee privacy. Designed with innovation and security in mind, our platform integrates seamlessly into your workflow to deliver actionable insights that drive success.
 home-support-image: /assets/image/img.png
+
 
 
 
