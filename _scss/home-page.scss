@@ -77,7 +77,62 @@
                 }
             }
         }
+
+        .right-section{
+            .intro-image-container{
+                position: relative;
+
+                .intro-image{
+                    border-radius: 10px;
+                }
+
+                .play-button{
+                    position: absolute;
+                    border: none;
+                    background-color: transparent;
+                    left: 0;
+                    right: 0;
+                    width: 100%;
+                    top: 50%;
+                    transform: translateY(-50%);
+                    -webkit-transform: translateY(-50%);
+                    -moz-transform: translateY(-50%);
+                    -o-transform: translateY(-50%);
+                    -ms-transform: translateY(-50%);
+
+                    .button-icon{
+                        height: 80px;
+                    }
+                }
+            }
+        }
     }  
+}
+
+#video-modal{
+    background-color: rgba(0, 0, 0, 0.75);
+
+    .modal-dialog{
+        .modal-content{
+            background-color: transparent;
+            border: none;
+
+            .modal-header{
+                border: none;
+
+                .btn-close{
+                    background-color: white;
+                    border-radius: 50%;
+                    padding: 12px;
+                    opacity: 1;
+                }
+            }
+            
+            .modal-body{
+                border: none;
+            }
+        }
+    }
 }
 
 #service{

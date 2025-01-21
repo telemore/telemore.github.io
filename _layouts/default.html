@@ -29,6 +29,26 @@
 {{ content }}
 {% include footer.html %}
 
+{% if page.url == '/' %}
+<!-- Video modal -->
+<div id="video-modal" class="modal" tabindex="-1">
+    <div class="modal-dialog modal-xl modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <video autoplay controls muted width="100%" poster="{{ site.data.site.home-intro-image }}">
+                    <source src="{{ site.data.site.home-intro-video }}" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+
+
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
