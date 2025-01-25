@@ -4,7 +4,7 @@ title:  "Best Practices for Ethical Employee Monitoring"
 description: "Learn how to implement ethical employee monitoring with transparency. Discover frameworks, best practices, and tools to ensure employee privacy and compliance."
 date: 2024-12-29 08:54:18 +0800
 categories:
-author: Kevin Zhou
+author: Grzegorz Braciszewski
 image: /assets/image/blog3.png
 seo_title: "Best Practices for Ethical Employee Monitoring"
 seo_description: "Learn how to implement ethical employee monitoring with transparency. Discover frameworks, best practices, and tools to ensure employee privacy and compliance."
