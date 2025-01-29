@@ -167,3 +167,35 @@
         }
     } 
 }
+
+@media (max-width: 1200px){
+    #cover{
+        .content-container{
+            .left-section{
+                .intro-container{
+                    .intro-header{
+                        font-size: 48px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 768px){
+    #cover{
+        .content-container{
+            .left-section{
+                .intro-container{
+                    .intro-header{
+                        font-size: 38px;
+                    }
+
+                    .button-container{
+                        margin-bottom: 45px;
+                    }
+                }
+            }
+        }
+    }
+}

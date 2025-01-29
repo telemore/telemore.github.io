@@ -77,3 +77,32 @@
     }
 }
 
+@media (max-width: 1200px){
+    .header-container{
+        .header{
+            font-size: 48px;
+            line-height: normal;
+        }
+    }
+
+    .content-container{
+        .content-header{
+            font-size: 48px;
+        }
+    }
+}
+
+@media (max-width: 768px){
+    .header-container{
+        .header{
+            font-size: 38px;
+            line-height: normal;
+        }
+    }
+
+    .content-container{
+        .content-header{
+            font-size: 38px;
+        }
+    }
+}
