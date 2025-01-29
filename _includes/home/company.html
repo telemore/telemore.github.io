@@ -3,9 +3,9 @@
         <div class="header-container">
             <h3 class="header text-center">{{ site.data.site.home-company-header }}</h3>
         </div>
-        <div class="row justify-content-evenly align-items-center mt-3 ">
+        <div class="row justify-content-evenly align-items-center mt-3 company-logo-container">
             {% for item in site.data.site.home-company-list %}
-            <div class="col-md-2 col-1 company-item text-center">
+            <div class="col-md-2 col-12 company-item text-center">
                 <img src="{{ item.image }}" class="company-image logo-{{ forloop.index }} center-block"/>
             </div>
             {% endfor %}
