@@ -320,6 +320,16 @@ footer{
         }
     }
 
+    footer{
+        .footer-item{
+            text-align: center;
+
+            &.policy{
+                margin-top: 15px;
+            }
+        }
+    }
+
     p{
         font-size: 16px !important;
     }
