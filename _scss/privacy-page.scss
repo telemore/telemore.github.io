@@ -20,6 +20,7 @@ h1,h2{
     font-weight: 600;
     font-family: "Poppins", Sans-serif;
     margin-bottom: 15px;
+    font-size: 38px;
 }
 
 hr{
@@ -29,10 +30,33 @@ hr{
 
 .header-normal{
     font-family: Lato;
-    font-size: 36px;
+    font-size: 54px;
     font-weight: 600;
     line-height: 54px;
     letter-spacing: 0.02em;
     margin-top: 80px;
     margin-bottom: 80px;
+}
+
+@media (max-width: 992px){
+    #privacy{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .header-normal{
+        font-size: 48px;
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
+
+@media (max-width: 768px){
+    .header-normal{
+        font-size: 38px;
+    }
+
+    h1,h2{
+        font-size: 34px;
+    }
 }
