@@ -4,6 +4,7 @@ $blueHover: #0672c5;
 body{
     font-family: "Lato", Sans-serif;
     color: #333333;
+    padding-top: 57px;
 }
 
 .container{
@@ -75,6 +76,7 @@ body{
 
 .navbar{
     border-bottom: 1px solid #dcdcdc;
+    background-color: #fff;
 
     .navbar-nav{
         .nav-item{
@@ -291,6 +293,10 @@ footer{
 }
 
 @media (max-width: 992px){
+    body{
+        padding-top: 57px;
+    }
+
     .navbar{
         .navbar-nav{
             .nav-item{
