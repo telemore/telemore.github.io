@@ -3,10 +3,9 @@ email: support@telemore.ai
 description: >- 
   Productivity Application
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://telemore.ai" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
 # Build settings
 plugins:
   - jekyll-feed
