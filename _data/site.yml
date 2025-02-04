@@ -86,7 +86,7 @@ home-service-list:
     title: Control monitoring and get help with tasks
     description: Toggle the monitoring to start working timer and get personalized guidance and recommendations on their tasks. Screen Recordings are used to monitor actions
     image: /assets/image/service2.png
-    video:
+    video: /assets/video/service/monitoring-demo.webm
   - subheader: Managers
     title: Setup alerts and rules to enforce compliance & productivity
     description: Built-in detectors set up guardrails for your employees when they are on working time. Receive alerts on infractions to provide visibility
