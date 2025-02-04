@@ -28,17 +28,20 @@ javascript: >
             mirror: false, // whether elements should animate out while scrolling past them
             anchorPlacement: 'top-bottom', // defines which position of the element regarding to window should trigger the animation
         });
+
+        $(document).ready(function(){
+            $videoPlayerContainer = $('#video-player-container');
+            $videoPlayerButton = $('#video-poster-container .play-button');
+            $videoPosterContainer = $('#video-poster-container');
+            $playVideo = $('#video-player');
+
+            $videoPlayerButton.on('click', function(){
+                $videoPosterContainer.css('display', 'none');
+                $videoPlayerContainer.css('display', 'block');
+                $playVideo.trigger('play');
+            });
+        });
         
-    </script>
-
-    <script type="text/javascript">
-        const videoModal = document.getElementById('videoModal')
-        const myInput = document.getElementById('myInput')
-
-        videoModal.addEventListener('shown.bs.modal', () => {
-            // myInput.focus()
-            // Additional settings for modal
-        })
     </script>
 ---
 {{ content }}
