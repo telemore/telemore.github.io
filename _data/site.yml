@@ -50,7 +50,7 @@ footer-social-media:
 
 home-intro-header-text: Generative AI Employee Productivity
 home-intro-colored-text: "Monitoring"
-home-intro-header-subtext: Telemore installs on Employee Laptops, and provides Insights on Tasks and User Activity (Proof of Work) with Actionable Recommendations
+home-intro-header-subtext: Telemore analyzes Employee activity to provide Insights on their Tasks with Actionable Recommendations
 home-intro-image: /assets/image/home-video-banner.png
 home-intro-video: /assets/video/landing_page_sample.mp4
 home-intro-button-text1: Get Started for Free
@@ -74,7 +74,7 @@ home-company-list:
     link: #
 
 
-home-service-header: Insights that Matter, not just Metrics
+home-service-header: Insights that Matter
 home-service-description: "Go beyond raw metrics with Telemore. Our platform transforms complex data into actionable insights and personalized coaching, empowering your team to perform better and optimize workflows—without the clutter of traditional tools"
 home-service-list:
   - subheader: Managers
