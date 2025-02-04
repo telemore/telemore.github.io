@@ -80,7 +80,7 @@ home-service-list:
   - subheader: Managers
     title: See employee activity logs with AI feedback
     description: Get detailed insights into workflows with AI-driven feedback. Using an LLM model and secure access to screens and telemetry, Telemore delivers precise summaries and actionable recommendations to boost productivity
-    image: /assets/image/activity-log-demo.png
+    image: /assets/video/activity-log-demo.webm
   - subheader: Employees
     title: Control monitoring and get help with tasks
     description: Toggle the monitoring to start working timer and get personalized guidance and recommendations on their tasks. Screen Recordings are used to monitor actions
