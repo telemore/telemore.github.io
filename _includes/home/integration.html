@@ -1,15 +1,49 @@
+<style>
+    .integration-title {
+        margin-top: 20px; /* Adjust spacing between icon and title */
+    }
+</style>
+
+
 <div class="section-container container">
     <div class="header-container">
-        <h2 class="header text-center">{{ site.data.site.home-integration-header }}</h2>
-        <p class="header-description text-center">{{ site.data.site.home-integration-description }}</p>
+        <h2 class="header text-center">Built with Security and Privacy First</h2>
+        <p class="header-description text-center">
+            Telemore prioritizes data protection and compliance, delivering secure solutions that maintain transparency and meet the highest privacy standards.
+        </p>
     </div>
 
     <div class="integration-list-container pt-5">
         <div class="row content-container">
             {% for item in site.data.site.home-integration-list %}
-            <div class="col-md-4 integration-item ">
-                <img src="{{ item.icon }}" class="integration-icon d-block"/>
-                <h4 class="integration-title pt-3">{{ item.title }}</h4>
+            <div class="col-md-4 integration-item text-center">
+                {% case item.title %}
+                {% when "End-to-End Data Encryption" %}
+                <svg viewBox="0 0 60 60" class="integration-icon d-block mx-auto" width="60" height="60">
+                    <circle cx="30" cy="30" r="30" fill="#007bff"/>
+                    <rect x="21" y="27" width="18" height="15" rx="2" fill="white"/>
+                    <rect x="24" y="18" width="12" height="12" rx="6"
+                          fill="none" stroke="white" stroke-width="3"/>
+                </svg>
+                {% when "Privacy Adherence" %}
+                <svg viewBox="0 0 60 60" class="integration-icon d-block mx-auto" width="60" height="60">
+                    <circle cx="30" cy="30" r="30" fill="#007bff"/>
+                    <path d="M30 12 L12 21 L12 33 C12 45 30 51 30 51 C30 51 48 45 48 33 L48 21 L30 12Z"
+                          fill="white"/>
+                    <path d="M24 30 L28.5 34.5 L36 27" stroke="#007bff" stroke-width="3" fill="none"/>
+                </svg>
+                {% when "SOC 2 Type II/ ISO 27001" %}
+                <svg viewBox="0 0 60 60" class="integration-icon d-block mx-auto" width="60" height="60">
+                    <circle cx="30" cy="30" r="30" fill="#007bff"/>
+                    <circle cx="30" cy="30" r="18" stroke="white" stroke-width="2.5" fill="none"/>
+                    <path d="M22 30 L28 36 L38 24" stroke="white" stroke-width="4" fill="none"/>
+                </svg>
+                {% else %}
+                <svg viewBox="0 0 60 60" class="integration-icon d-block mx-auto" width="60" height="60">
+                    <circle cx="30" cy="30" r="30" fill="#007bff"/>
+                </svg>
+                {% endcase %}
+                <h4 class="integration-title text-center">{{ item.title }}</h4>
                 <p class="integration-description">{{ item.description }}</p>
             </div>
             {% endfor %}

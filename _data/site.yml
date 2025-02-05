@@ -91,22 +91,18 @@ home-service-list:
     title: Setup alerts and rules to enforce compliance & productivity
     description: Built-in detectors set up guardrails for your employees when they are on working time. Receive alerts on infractions to provide visibility
     image: /assets/image/service3.png
-    video:
+    video: /assets/video/service/detectors-demo.webm
 
 home-integration-header: "Built with Security and Privacy First"
 home-integration-description: "Telemore prioritizes data protection and compliance, delivering secure solutions that maintain transparency and meet the highest privacy standards"
 home-integration-bg: /assets/image/integrations-bg-landscape.png
 home-integration-list:
   - title: End-to-End Data Encryption
-    description: All data (stored & in-transit) is encrypted using industry-leading standards such as AES-256 and TLS 1.3, ensuring sensitive information is safeguarded against unauthorized access.
-    icon: /assets/image/icon1.png
+    description: All data (stored & in-transit) is encrypted using industry-leading standards such as AES-256 and TLS 1.3, ensuring sensitive information is safeguarded against unauthorized access
   - title: Privacy Adherence
-    description: We respect employee's privacy—we never record the webcam or microphone. Most of our monitoring centers around screenshot video data and metadata from running processes to provide the input to insights generated.
-    icon: /assets/image/icon2.png
-  - title: SOC 2 Type II/ ISO 27001 Certification In-Progress
-    description: Estimated for mid-2025. We are currently working with our compliance specialist to document procedures and submit evidence of controls for the auditor.
-    icon: /assets/image/icon3.png
-
+    description: We respect employee's privacy—we never record the webcam or microphone. Most of our monitoring centers around screenshot video data and metadata from running processes to provide the input to insights generated
+  - title: SOC 2 Type II/ ISO 27001
+    description: Estimated for mid-2025. We are currently working with our compliance specialist to document procedures and submit evidence of controls for the auditor
 home-support-header: Why use Telemore
 home-support-description: At Telemore, we prioritize empowering businesses with tools that enhance productivity, maintain transparency, and respect employee privacy. Designed with innovation and security in mind, our platform integrates seamlessly into your workflow to deliver actionable insights that drive success.
 home-support-image: /assets/image/img.png

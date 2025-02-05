@@ -1,0 +1,11 @@
+<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">
+  <!-- Blue circle background -->
+  <circle cx="50" cy="50" r="50" fill="#007bff"/>
+  
+  <!-- Lock body -->
+  <rect x="35" y="45" width="30" height="25" rx="2" fill="white"/>
+  
+  <!-- Lock shackle -->
+  <rect x="40" y="30" width="20" height="20" rx="10" 
+        fill="none" stroke="white" stroke-width="6"/>
+</svg>
