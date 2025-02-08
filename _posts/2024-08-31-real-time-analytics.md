@@ -11,7 +11,7 @@ seo_description: "Learn how real-time analytics can improve productivity and dri
 excerpt: ""
 ---
 
-## How Real-Time Analytics Can Revolutionize Workplace Productivity
+//## How Real-Time Analytics Can Revolutionize Workplace Productivity
 
 With ever-increasing business dynamics, nothing has been more critical than 
 continuous strides toward improving work efficiency. Organizations constantly strive 

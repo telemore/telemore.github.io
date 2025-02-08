@@ -11,7 +11,7 @@ seo_description: "Discover how to create a remote work policy that ensures produ
 excerpt: ""
 ---
 
-# How to Create an Effective Remote Work Policy with Monitoring Tools
+//# How to Create an Effective Remote Work Policy with Monitoring Tools
 
 Working from home has suddenly brought opportunities and challenges into the workplace. While it offers flexibility to employers regarding access to talent from all over the world, it equally demands a formal approach to managing staff who are no longer physically present within the office environment. 
 
