@@ -1,6 +1,9 @@
 ---
 layout: pages-layout/privacy
 permalink: privacy/
+title: Privacy Policy
+description:
+
 ---
 
 <h1 class="text-center header-normal">Privacy Policy</h1>

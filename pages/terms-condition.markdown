@@ -1,6 +1,8 @@
 ---
 layout: pages-layout/privacy
 permalink: terms/
+title: Terms of Service
+description:
 ---
 
 <h1 class="text-center header-normal">Terms Of Service</h1>
