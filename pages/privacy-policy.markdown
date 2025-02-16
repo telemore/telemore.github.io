@@ -2,7 +2,7 @@
 layout: pages-layout/privacy
 permalink: privacy/
 title: Privacy Policy
-description:
+description: "Learn how we collect, use, and protect your personal information. Read our Privacy Policy to understand your rights and our commitment to data security."
 
 ---
 

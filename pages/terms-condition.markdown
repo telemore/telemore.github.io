@@ -2,7 +2,7 @@
 layout: pages-layout/privacy
 permalink: terms/
 title: Terms of Service
-description:
+description: "Review our Terms of Service to understand the rules and guidelines for using our platform. Learn about your rights, responsibilities, and policies."
 ---
 
 <h1 class="text-center header-normal">Terms Of Service</h1>
