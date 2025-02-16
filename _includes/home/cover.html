@@ -2,30 +2,64 @@
     <div class="row content-container">
         <div class="left-section col-lg-6 col-12">
             <div class="intro-container text-lg-start text-center">
-                <h1 class="intro-header">{{ site.data.site.home-intro-header-text }} <span class="intro-colored-text">{{ site.data.site.home-intro-colored-text }}</span></h1>
+                <h1 class="intro-header">
+                    {{ site.data.site.home-intro-header-text }}
+                    <span class="intro-colored-text">{{ site.data.site.home-intro-colored-text }}</span>
+                </h1>
                 <p class="intro-description">{{ site.data.site.home-intro-header-subtext }}</p>
                 <div class="button-container mb-5 mb-lg-0">
                     <div class="button-wrapper flex-sm-nowrap justify-content-center justify-content-lg-start">
-                        <a href="{{ site.data.site.home-intro-button-link1 }}" class="intro-button demo-button">{{ site.data.site.home-intro-button-text1 }}</a>
-                        <a href="{{ site.data.site.home-intro-button-href }}" class="intro-button demo-button">{{ site.data.site.home-intro-button-text2 }}</a>
+                        <a href="{{ site.data.site.home-intro-button-link1 }}" class="intro-button demo-button">
+                            {{ site.data.site.home-intro-button-text1 }}
+                        </a>
+                        <a href="{{ site.data.site.home-intro-button-href }}" class="intro-button demo-button">
+                            {{ site.data.site.home-intro-button-text2 }}
+                        </a>
                     </div>
                 </div>
             </div>
         </div>
         <div class="right-section col-lg-6 col-12">
+            <!-- Poster Container with Play Button -->
             <div id="video-poster-container" class="intro-image-container">
-                <button class="play-button">
-                    <img src="{{ site.data.site.home-intro-image }}" class="d-block img-fluid intro-image"/>
-                    <img src="/assets/image/video-button.png" class="button-icon"/>
+                <button id="play-button" class="play-button" style="border: none; background: transparent; padding: 0;">
+                    <img src="{{ site.data.site.home-intro-image }}" class="d-block img-fluid intro-image" alt="Video Banner" />
+                    <img src="/assets/image/video-button.png" class="button-icon" alt="Play" />
                 </button>
             </div>
-            <div id="video-player-container" class="video-player-container">
-                <video id="video-player" class="video-player" playsinline controls width="100%"> <!--poster="/assets/image/home-video-banner.png"-->>
-                    <source src="/assets/video/service/Telemore_Update.webm" type="video/webm">
-                    <!-- <source src="/assets/video/landing_page_sample.webm" type="video/webm"> -->
+            <!-- Video Container (Hidden by Default) -->
+            <div id="video-player-container" class="video-player-container" style="display: none;">
+                <video id="video-player" class="video-player" playsinline controls width="100%" preload="none" poster="{{ site.data.site.home-intro-image }}">
                     Your browser does not support the video tag.
                 </video>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Lazy-Loading Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var playButton = document.getElementById('play-button');
+        var videoPosterContainer = document.getElementById('video-poster-container');
+        var videoPlayerContainer = document.getElementById('video-player-container');
+        var videoPlayer = document.getElementById('video-player');
+
+        playButton.addEventListener('click', function() {
+            // Hide the poster container
+            videoPosterContainer.style.display = 'none';
+            // Show the video container
+            videoPlayerContainer.style.display = 'block';
+
+            // Create and append the WebM source element
+            var sourceWebm = document.createElement('source');
+            sourceWebm.src = '/assets/video/service/Telemore_Update.webm';
+            sourceWebm.type = 'video/webm';
+            videoPlayer.appendChild(sourceWebm);
+
+            // Load and play the video
+            videoPlayer.load();
+            videoPlayer.play();
+        });
+    });
+</script>
