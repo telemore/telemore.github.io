@@ -115,7 +115,7 @@ Organizations have adopted BYOD policies, and more employees use personal device
 
 ## Top Features to Look for in Ethical Monitoring Software
 
-Not all employee monitoring software is created equal. This being the case, businesses should choose software with features enabling transparency, security, and respect for employee privacy when ensuring that monitoring tools are ethical. Following is a rundown of the top features to look for in choosing [ethical monitoring software](http://kevinzhou1.github.io):
+Not all employee monitoring software is created equal. This being the case, businesses should choose software with features enabling transparency, security, and respect for employee privacy when ensuring that monitoring tools are ethical. Following is a rundown of the top features to look for in choosing [ethical monitoring software](http://telemore.ai):
 
 ### Detect and Alert on Disallowed Programs
 

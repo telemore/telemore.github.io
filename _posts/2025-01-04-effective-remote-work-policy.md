@@ -35,7 +35,7 @@ One of the cornerstones of a successful remote work policy is ensuring your empl
 
 Setting productivity-related goals is essential in maintaining the performance level of remote teams. Unlike working in an office, where the manager can physically view their employees, working remotely necessitates more explicit guidelines on measuring success. KPIs provide a cut-and-dry way to assess employee contributions and whether they meet the company objectives.
 
-Businesses can support these goals by implementing remote work productivity tools that provide real-time employee productivity and output data. For instance, with Trello, Asana, or [Telemore](https://kevinzhou1.github.io), managers can assign tasks, set deadlines, and track progress. Adding this to your remote work policy ensures that all employees know exactly how their performance will be monitored and evaluated. Setting realistic and achievable goals also plays a vital role in helping employees stay focused and productive in a less structured work environment.
+Businesses can support these goals by implementing remote work productivity tools that provide real-time employee productivity and output data. For instance, with Trello, Asana, or [Telemore](https://telemore.ai), managers can assign tasks, set deadlines, and track progress. Adding this to your remote work policy ensures that all employees know exactly how their performance will be monitored and evaluated. Setting realistic and achievable goals also plays a vital role in helping employees stay focused and productive in a less structured work environment.
 
 ### Setting Working Hours and Availability
 
