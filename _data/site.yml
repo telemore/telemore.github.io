@@ -63,15 +63,15 @@ home-intro-button-link2:
 home-company-header: Built with Industry Experience From
 home-company-list:
   - image: /assets/image/aws_logo.png
-    link: #
+    alt: AWS Logo
   - image: /assets/image/sig_logo.png
-    link: #
+    alt: Susquehanna International Group Logo
   - image: /assets/image/capone_logo.png
-    link: #
+    alt: Capital One Logo
   - image: /assets/image/tr_logo.png
-    link: #
+    alt: Thompson Reuters Logo
   - image: /assets/image/emerson_logo.png
-    link: #
+    alt: Emerson Logo
 
 
 home-service-header: Insights that Matter
@@ -106,6 +106,7 @@ home-integration-list:
 home-support-header: Why use Telemore
 home-support-description: At Telemore, we prioritize empowering businesses with tools that enhance productivity, maintain transparency, and respect employee privacy. Designed with innovation and security in mind, our platform integrates seamlessly into your workflow to deliver actionable insights that drive success.
 home-support-image: /assets/image/img.png
+home-support-image-alt: A businesswoman analyzing data on a laptop, with rising bar charts and an upward-trending line graph symbolizing business growth.
 
 
 
