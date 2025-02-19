@@ -1,15 +1,45 @@
 <!DOCTYPE html>
 <html lang="{{ page.lang | default: 'en' }}">
-    {% include head.html %}
+{% include head.html %}
 <body>
+
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5SKZ39ZN"
                   height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
+
 {% include navbar.html %}
 {{ content }}
+
+<!-- GDPR Cookie Consent Banner -->
+<div id="cookie-banner" style="position: fixed; bottom: 0; width: 100%; background: #333; color: white; text-align: center; padding: 10px;">
+    This site uses cookies for analytics.
+    <button onclick="acceptCookies()" style="background: #28a745; color: white; border: none; padding: 5px 10px; margin-left: 10px; cursor: pointer;">
+        Accept
+    </button>
+</div>
+
+<script>
+    function acceptCookies() {
+        document.cookie = "analytics_consent=true; path=/; max-age=31536000";
+        document.getElementById("cookie-banner").style.display = "none";
+
+        // Initialize Google Tag Manager only after consent
+        gtag('consent', 'update', {
+            'ad_storage': 'granted',
+            'analytics_storage': 'granted'
+        });
+    }
+
+    // Check if consent was already given
+    if (document.cookie.includes("analytics_consent=true")) {
+        document.getElementById("cookie-banner").style.display = "none";
+    }
+</script>
+
 {% include footer.html %}
 
+<!-- JavaScript -->
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
 <script type="text/javascript" src="https://code.jquery.com/ui/1.11.4/jquery-ui.min.js"></script>
 <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
@@ -17,5 +47,4 @@
 {{ layout.javascript }}
 
 </body>
-
 </html>
