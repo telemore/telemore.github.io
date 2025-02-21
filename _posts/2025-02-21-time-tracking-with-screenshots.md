@@ -37,7 +37,7 @@ Choose a tool that fits your needs, whether it’s automation, privacy, or advan
 
 ## **How [Hubstaff](https://hubstaff.com/) Tracking Features Work**
 
-![Hubstaff](https://mars-images.imgix.net/seobot/screenshots/hubstaff.com-434c4eec20b7eef7e637853a4935ceec-2025-02-21.jpg?auto=compress)
+<img src="https://mars-images.imgix.net/seobot/screenshots/hubstaff.com-434c4eec20b7eef7e637853a4935ceec-2025-02-21.jpg?auto=compress" width="500px" />
 
 ::: @iframe https://www.youtube.com/embed/u9-S4EFluk8
 :::
@@ -58,7 +58,7 @@ Hubstaff combines strong compliance features, seamless integrations, and intuiti
 
 ## **2. [Time Doctor](https://www.timedoctor.com/features/employee-monitoring)**
 
-![Time Doctor](https://mars-images.imgix.net/seobot/screenshots/www.timedoctor.com-44f8e4d81fad11ff5f04c50fea31a129-2025-02-21.jpg?auto=compress)
+<img src="https://mars-images.imgix.net/seobot/screenshots/www.timedoctor.com-44f8e4d81fad11ff5f04c50fea31a129-2025-02-21.jpg?auto=compress" width="500px" />
 
 Time Doctor offers **real-time tracking, customizable screenshots, and productivity analytics**.
 
@@ -74,7 +74,7 @@ It’s particularly well-suited for **large teams needing in-depth analytics** a
 
 ## **3. [TimeCamp](https://www.timecamp.com/)**
 
-![TimeCamp](https://mars-images.imgix.net/seobot/screenshots/www.timecamp.com-af26372cd9cff430aa1cbb4c386f877c-2025-02-21.jpg?auto=compress)
+<img src="https://mars-images.imgix.net/seobot/screenshots/www.timecamp.com-af26372cd9cff430aa1cbb4c386f877c-2025-02-21.jpg?auto=compress" width="500px" />
 
 TimeCamp balances **AI task automation with private screenshots**, making it **less intrusive yet highly efficient**.
 
@@ -90,7 +90,7 @@ Its **lightweight, AI-powered tracking** makes it a great fit for businesses tha
 
 ## **4. [MonitUp](https://www.monitup.com/employee-monitoring-software-guid?srsltid=AfmBOoq89yf6Oq5tcBYnpFxw1oBY1xiDwF9-KegmKYGAPW4OhoaotEAv)**
 
-![MonitUp](https://mars-images.imgix.net/seobot/screenshots/www.monitup.com-1508e32642fab25d80707fa7be43e631-2025-02-21.jpg?auto=compress)
+<img src="https://mars-images.imgix.net/seobot/screenshots/www.monitup.com-1508e32642fab25d80707fa7be43e631-2025-02-21.jpg?auto=compress" width="500px" />
 
 MonitUp offers **GDPR-compliant, AI-driven monitoring** that respects employee privacy.
 
@@ -106,7 +106,7 @@ Its **AI-powered automation and ethical monitoring approach** make it ideal for 
 
 ## **5. [Telemore AI](https://telemore.ai/)**
 
-![Telemore AI](https://mars-images.imgix.net/seobot/screenshots/telemore.ai-13629b3f681ed3a837fccacaa64b267c-2025-02-21.jpg?auto=compress)
+<img src="https://mars-images.imgix.net/seobot/screenshots/telemore.ai-13629b3f681ed3a837fccacaa64b267c-2025-02-21.jpg?auto=compress" width="500px" />
 
 Telemore AI is **an AI-driven monitoring tool in beta**, focused on **privacy-conscious productivity tracking**.
 
