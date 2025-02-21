@@ -6,6 +6,7 @@ date: 2025-02-21 08:54:18 +0800
 categories:
 author: Kevin Zhou
 image: /assets/image/time-tracking-blog.png
+image_alt: AI Employee Monitoring Software
 seo_title: "Best AI Time Tracking with Screenshots – Top Productivity Tools"
 seo_description: "Discover AI-powered time tracking tools with screenshots to boost productivity, automate workflows, and ensure privacy compliance."
 excerpt: ""

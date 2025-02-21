@@ -6,6 +6,7 @@ date: 2024-12-29 08:54:18 +0800
 categories:
 author: Grzegorz Braciszewski
 image: /assets/image/blog5.png
+image_alt:
 seo_title: "Common Misconceptions About Employee Monitoring Debunked"
 seo_description: "Learn the truth about employee monitoring, including legal aspects, ethical practices, and common myths about workplace surveillance"
 excerpt: ""

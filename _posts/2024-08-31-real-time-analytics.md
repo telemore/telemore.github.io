@@ -6,6 +6,7 @@ date: 2024-08-31 08:54:18 +0800
 categories:
 author: Grzegorz Braciszewski
 image: /assets/image/blog6.png
+image_alt:
 seo_title: "Real-Time Analytics in Workplace Productivity with Data"
 seo_description: "Learn how real-time analytics can improve productivity and drive workplace efficiency. Discover the power of real-time workplace and productivity analytics."
 excerpt: ""
