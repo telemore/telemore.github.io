@@ -5,7 +5,7 @@ description: "Discover how AI employee monitoring software transforms workplace 
 date: 2025-02-19 10:00:00 +0000
 categories: [Technology, AI]
 author: Kevin Zhou
-image: /assets/image/ai_monitoring.png
+image: ![AI Employee Monitoring Software](/assets/image/ai_monitoring.png)
 seo_title: "AI Employee Monitoring Software: Transforming Your Workplace"
 seo_description: "Learn how AI employee monitoring software boosts efficiency, ensures accountability, and supports ethical oversight in modern workplaces."
 excerpt: "Explore the transformative impact of AI employee monitoring software on workplace productivity and accountability."
