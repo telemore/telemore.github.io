@@ -51,6 +51,9 @@ footer-social-media:
 home-intro-header-text: Generative AI Employee Productivity
 home-intro-colored-text: "Monitoring"
 home-intro-header-subtext: Telemore analyzes Employee activity to provide Insights on their Tasks with Actionable Recommendations
+
+
+video-banner-aria: Employee productivity monitoring software
 home-intro-image: /assets/image/home-video-banner.png
 home-intro-video: /assets/video/landing_page_sample.mp4
 home-intro-button-text1: Get Started for Free
@@ -75,7 +78,7 @@ home-company-list:
 
 
 home-service-header: Insights that Matter
-home-service-description: "Go beyond raw metrics with Telemore. Our platform transforms complex data into actionable insights and personalized coaching, empowering your team to perform better and optimize workflows—without the clutter of traditional tools"
+home-service-description: "Go beyond raw metrics with Telemore, a perfect employee monitoring software to transforms complex data into actionable insights and personalized coaching, empowering your team to perform better and optimize workflows"
 home-service-list:
   - subheader: Managers
     title: See employee activity logs with AI feedback
@@ -103,10 +106,10 @@ home-integration-list:
     description: We respect employee's privacy—we never record the webcam or microphone. Most of our monitoring centers around screenshot video data and metadata from running processes to provide the input to insights generated
   - title: SOC 2 Type II/ ISO 27001
     description: Estimated for mid-2025. We are currently working with our compliance specialist to document procedures and submit evidence of controls for the auditor
-home-support-header: Why use Telemore
-home-support-description: At Telemore, we prioritize empowering businesses with tools that enhance productivity, maintain transparency, and respect employee privacy. Designed with innovation and security in mind, our platform integrates seamlessly into your workflow to deliver actionable insights that drive success.
-home-support-image: /assets/image/img.png
-home-support-image-alt: A businesswoman analyzing data on a laptop, with rising bar charts and an upward-trending line graph symbolizing business growth.
+home-support-header: What Makes Telemore a Perfect Employee Monitoring Software?
+home-support-description: At Telemore, we prioritize empowering businesses with tools that enhance productivity, maintain transparency, and respect employee privacy. Telemore employee productivity monitoring software is designed with innovation and security in mind, our platform integrates seamlessly into your workflow to deliver actionable insights that drive success.
+home-support-image: /assets/image/success-with-telemore.png
+home-support-image-alt: Remote employee Productivity monitoring software
 
 
 
