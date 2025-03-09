@@ -1,20 +1,200 @@
-<div class="section-container container">
-    <div class="row content-container">
-        <div class="left-section col-md-6">
-            <div class="intro-container">
-                <h1 class="intro-header">{{ site.data.pricing.pricing-intro-header-text }} <span class="intro-colored-text">{{ site.data.pricing.pricing-intro-colored-text }}</span></h1>
-                <p class="intro-description">{{ site.data.pricing.pricing-intro-header-subtext | newline_to_br }}</p>
-                <div class="button-container">
-                    <div class="button-wrapper">
-                        <a href="https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform" class="intro-button demo-button">{{ site.data.pricing.pricing-intro-button-text1 }}</a>
+
+<!-- Pricing Tiers Section -->
+<div class="pricing-section container my-5">
+    <h2 class="text-center mb-5">Choose the Right Plan for Your Team</h2>
+
+    <div class="row justify-content-center">
+        {% for plan in site.data.pricing.pricing-price-list %}
+        <div class="col-md-4 mb-4">
+            <div class="pricing-card card h-100 {% if plan.featured %}pricing-featured{% endif %}">
+                {% if plan.coming-soon %}
+                <div class="coming-soon-badge">Coming Soon</div>
+                {% endif %}
+
+                <div class="card-header text-center py-4">
+                    <h3 class="plan-title">{{ plan.title }}</h3>
+                    <div class="price-container">
+                        <span class="price">{{ plan.price }}</span>
+                        <span class="price-period">{{ plan.subtext }}</span>
                     </div>
+                </div>
+
+                <div class="card-body">
+                    <ul class="feature-list">
+                        {% for feature in plan.package %}
+                        <li><i class="fas fa-check"></i> {{ feature.text }}</li>
+                        {% endfor %}
+                    </ul>
+                </div>
+
+                <div class="card-footer text-center bg-transparent border-0 pb-4">
+                    <a href="{{ plan.button-link }}" class="btn btn-primary btn-lg plan-button">{{ plan.button-text }}</a>
                 </div>
             </div>
         </div>
-        <div class="right-section col-md-6">
-            <div class="intro-image-container">
-                <img src="{{ site.data.pricing.pricing-intro-image }}" class="img-fluid d-block" />
-            </div>
+        {% endfor %}
+    </div>
+</div>
+
+<!-- Support Section -->
+<div class="support-section container my-5">
+    <div class="row align-items-center">
+        <div class="col-md-6">
+            <h2>{{ site.data.pricing.pricing-support-header }}</h2>
+            <p>{{ site.data.pricing.pricing-support-description }}</p>
+            <a href="mailto:support@telemore.ai" class="btn btn-outline-primary">Contact Us</a>
         </div>
     </div>
 </div>
+
+<style>
+    /* Pricing Card Styles */
+    .pricing-card {
+        border-radius: 10px;
+        box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        transition: transform 0.3s ease, box-shadow 0.3s ease;
+        position: relative;
+        overflow: hidden;
+    }
+
+    .pricing-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+    }
+
+    .pricing-featured {
+        border: 2px solid #4262FF;
+        transform: scale(1.05);
+    }
+
+    .pricing-featured:hover {
+        transform: translateY(-5px) scale(1.05);
+    }
+
+    .coming-soon-badge {
+        position: absolute;
+        top: 16px;
+        right: -35px;
+        background-color: #FF6B6B;
+        color: white;
+        padding: 5px 40px;
+        font-size: 12px;
+        font-weight: bold;
+        transform: rotate(45deg);
+    }
+
+    .plan-title {
+        font-weight: 700;
+        margin-bottom: 10px;
+    }
+
+    .price-container {
+        display: flex;
+        align-items: baseline;
+        justify-content: center;
+        margin-top: 15px;
+    }
+
+    .price {
+        font-size: 2.5rem;
+        font-weight: 700;
+        color: #333;
+    }
+
+    .price-period {
+        font-size: 1rem;
+        color: #777;
+        margin-left: 5px;
+    }
+
+    .feature-list {
+        list-style: none;
+        padding-left: 10px;
+        margin-bottom: 30px;
+    }
+
+    .feature-list li {
+        margin-bottom: 10px;
+        display: flex;
+        align-items: center;
+    }
+
+    .feature-list i {
+        color: #4262FF;
+        margin-right: 10px;
+    }
+
+    .plan-button {
+        width: 80%;
+        border-radius: 30px;
+        padding: 10px 20px;
+        font-weight: 600;
+    }
+
+    /* Hero Section Updates */
+    .intro-colored-text {
+        color: #4262FF;
+    }
+
+    .intro-header {
+        font-weight: 700;
+        margin-bottom: 20px;
+    }
+
+    .intro-description {
+        margin-bottom: 30px;
+        line-height: 1.6;
+    }
+
+    .demo-button {
+        background-color: #4262FF;
+        color: white;
+        border: none;
+        border-radius: 30px;
+        padding: 12px 30px;
+        font-weight: 600;
+        transition: all 0.3s ease;
+    }
+
+    .demo-button:hover {
+        background-color: #3251E0;
+        transform: translateY(-2px);
+        box-shadow: 0 5px 15px rgba(66, 98, 255, 0.3);
+    }
+
+    /* Support Section */
+    .support-section {
+        padding: 60px 0;
+    }
+
+    /* Add this to your existing CSS */
+    .support-section {
+        text-align: center;
+        padding: 60px 0;
+    }
+
+    .support-section .row {
+        justify-content: center;
+    }
+
+    .support-section .col-md-6 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .support-section h2 {
+        margin-bottom: 15px;
+    }
+
+    .support-section p {
+        max-width: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    .support-section .btn {
+        margin-top: 10px;
+    }
+</style>

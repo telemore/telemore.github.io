@@ -1,48 +1,43 @@
-pricing-intro-header-text: Pricing
-pricing-intro-colored-text: ""
-pricing-intro-header-subtext: 
-pricing-intro-header-text: Temporarily
-pricing-intro-colored-text: "Free"
-pricing-intro-header-subtext: 
-  We just launched—And appreciate your interest in us!
-  We are looking to onboard beta users to help us provide the best user experience for you.
-  As a token of our appreciation, we are making Telemore free to use during our beta phase.
-  
-  
-  Our plan in mind to charge a premium and enterprise tier to allow unlimited access. The enterprise tier will also
-  come with dedicated infrastructure deployment and SSO/SAML integration
-pricing-intro-image: /assets/image/pricing-demo.png
-pricing-intro-button-text1: Click to Sign In
-pricing-intro-button-link1: https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform #https:\\telemore.app
 
 pricing-price-list:
   - title: FREE
     price: "$0"
     subtext: "/month"
+    button-text: "Sign Up Free"
+    button-link: "https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform"
     package:
-      - text: 10 users included
-      - text: 2 GB of storage
-      - text: Email support
-      - text: Help center access
+      - text: "Manage one employee"
+      - text: "Create 5 tasks per week"
+      - text: "Limited chat capabilities"
+      - text: "Basic email support"
+      - text: "Help center access"
   - title: PRO
     price: "$15"
     subtext: "/month"
+    button-text: "Upgrade to Pro"
+    button-link: "https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform"
+    featured: true
     package:
-      - text: 20 users included
-      - text: 20 GB of storage
-      - text: Email support
-      - text: Help center access
+      - text: "Unlimited employee management"
+      - text: "Unlimited tasks"
+      - text: "Unlimited chat"
+      - text: "Priority email support"
+      - text: "Advanced analytics"
+      - text: "Help center access"
   - title: ENTERPRISE
-    price: "$29"
-    subtext: "/month"
+    price: "Custom"
+    subtext: "pricing"
+    button-text: "Schedule a Demo"
+    button-link: "https://calendly.com/telemore"
+    coming-soon: true
     package:
-      - text: 30 users included
-      - text: 30 GB of storage
-      - text: Phone and Email support
-      - text: Help center access
+      - text: "All Pro features"
+      - text: "SSO/SAML integration"
+      - text: "Custom deployment"
+      - text: "Dedicated URL"
+      - text: "Phone and email priority support"
+      - text: "Dedicated account manager"
 
-pricing-support-header: Lorem ipsum dolor
-pricing-support-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Quis ipsum suspendisse ultrices gravida. Risus commodo viverra maecenas accumsan lacus vel facilisis.
+pricing-support-header: Need Help Choosing?
+pricing-support-description: Our team is ready to help you find the perfect plan for your organization's needs. Contact us today for personalized assistance and to learn more about how Telemore can transform your team's productivity.
 pricing-support-image: /assets/image/support.png
-
-    
