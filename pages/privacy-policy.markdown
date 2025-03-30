@@ -71,7 +71,7 @@ A defined role of Data Protection Officer (DPO) is required under the GDPR if an
 It is Telemore’s policy to be fair and proportionate when considering the actions to be taken to inform affected parties regarding breaches of personal data. In line with the GDPR, where a breach is known to have occurred which is likely to result in a risk to the rights and freedoms of individuals, the relevant supervisory authority will be informed within 72 hours.
 
 ### 10. Addressing compliance to the GDPR
-The following actions are undertaken to ensure that Telemore AI LLC complies at all times with the accountability principle of the GDPR:
+The following actions are undertaken to eArensure that Telemore AI LLC complies at all times with the accountability principle of the GDPR:
 - The legal basis for processing personal data is clear and unambiguous.
 - Rules regarding consent are followed.
 - Privacy by design is adopted for all new or changed systems and processes.

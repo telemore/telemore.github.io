@@ -1,11 +1,19 @@
 brand-logo-text: "Telemore AI"
 nav:
   - slugid: 1
-    text: Home
-    link: /
-    isDropDown:
+    text: Products
+    link:
+    isDropDown: true
+    subMenu:
+      - text: AI Productivity Tool
+        link: /ai-productivity/
+        desc: Chat with your tasks to plan your work
+      - text: Employee Analytics
+        link: /employee-analytics/
+        desc: Actionable insights for your high-performing team
+
   - slugid: 2
-    text: Product Details
+    text: Learn More
     link:
     isDropDown: true
     subMenu:
@@ -48,8 +56,8 @@ footer-social-media:
     link: https://www.facebook.com/profile.php?id=61572435080625
  
 
-home-intro-header-text: Generative AI Employee Productivity
-home-intro-colored-text: "Monitoring"
+home-intro-header-text: Generative AI Empowered Productivity
+home-intro-colored-text: "Analytics"
 home-intro-header-subtext: Telemore analyzes Employee activity to provide Insights on their Tasks with Actionable Recommendations
 
 
