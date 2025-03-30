@@ -8,7 +8,7 @@ description: "Review our Terms of Service to understand the rules and guidelines
 <h1 class="text-center header-normal">Terms Of Service</h1>
 
 # Telemore AI LLC Terms of Service
-_Last Updated: January 20, 2025_
+_Last Updated: March 8, 2025_
 
 Welcome to Telemore AI LLC (“Telemore,” “we,” “our,” or “us”). These Terms of Service (“Terms”) govern your access to and use of Telemore’s software, applications, and services (collectively, the “Service”). By accessing or using the Service, you acknowledge and agree to these Terms. If you do not agree, you must discontinue using the Service immediately.
 
@@ -24,11 +24,11 @@ Welcome to Telemore AI LLC (“Telemore,” “we,” “our,” or “us”). T
 6. [Subscription Fees, Billing, and Refunds](#6-subscription-fees-billing-and-refunds)
 7. [AWS Hosting and Security Commitments](#7-aws-hosting-and-security-commitments)
 8. [Generative AI Disclaimer](#8-generative-ai-disclaimer)
-9. [Data Privacy and Monitoring](#9-data-privacy-and-monitoring)
+9. [Data Privacy, Monitoring, and Client Responsibilities](#9-data-privacy-monitoring-and-client-responsibilities)
 10. [Acceptable Use Policy](#10-acceptable-use-policy)
 11. [Service Modifications and Updates](#11-service-modifications-and-updates)
 12. [Service Availability and Performance](#12-service-availability-and-performance)
-13. [Termination of Accounts](#13-termination-of-accounts)
+13. [Termination of Accounts and Data Deletion](#13-termination-of-accounts-and-data-deletion)
 14. [Limitation of Liability](#14-limitation-of-liability)
 15. [Indemnification](#15-indemnification)
 16. [Dispute Resolution and Arbitration](#16-dispute-resolution-and-arbitration)
@@ -36,6 +36,7 @@ Welcome to Telemore AI LLC (“Telemore,” “we,” “our,” or “us”). T
 18. [Governing Law and Jurisdiction](#18-governing-law-and-jurisdiction)
 19. [Feedback and Suggestions](#19-feedback-and-suggestions)
 20. [Contact Information](#20-contact-information)
+21. [Changes to Terms](#21-changes-to-terms)
 
 ---
 
@@ -45,6 +46,7 @@ Telemore AI LLC provides advanced employee monitoring and productivity tools pow
 - Have read, understood, and agreed to these Terms.
 - Are authorized to enter into these Terms on behalf of yourself or your organization, where applicable.
 - Understand the limitations and responsibilities of using AI-powered services.
+- **Acknowledge that continued use of the Service after any changes to these Terms are posted constitutes your acceptance of such changes.**
 
 ---
 
@@ -92,11 +94,27 @@ You may not:
 
 ## 5. Scope of Service Features
 
-Telemore provides the following features:
-- **Monitoring Tools**: Track employee activity, productivity, and workflow trends.
-- **Analytics Dashboard**: View insights into team performance, resource usage, and activity patterns.
-- **Generative AI Features**: Automated content creation and recommendations powered by Amazon Bedrock.
-- **Customizable Configurations**: Tailor the Service to your business needs.
+Telemore provides a suite of **AI-powered productivity and monitoring tools** designed to help businesses enhance efficiency, improve workflows, and gain actionable insights. Our Service includes:
+
+### 5.1 **Employee Productivity & Task Management**
+- **Task Tracking & Automation**: Employees can track tasks, log progress, and receive AI-driven recommendations to improve workflow efficiency.
+- **Chat with Your Tasks**: AI-powered chat allows employees to interact with tasks, receive reminders, and generate summaries on demand.
+- **AI-Powered Productivity Insights**: Automated daily, weekly, and monthly reports help employees understand work patterns, efficiency levels, and areas of improvement.
+
+### 5.2 **Managerial Oversight & Team Performance Insights**
+- **Real-Time Activity Insights**: Managers can view work patterns, productivity trends, and workflow analytics for individuals or teams.
+- **AI-Generated Team Reports**: AI provides summarized insights into productivity metrics, highlighting strengths, inefficiencies, and recommended optimizations.
+- **Customizable Alerts & Detectors**: Managers can set up automated alerts for idle time, unauthorized applications, or workflow disruptions.
+
+### 5.3 **AI-Powered Assistance & Decision Support**
+- **Generative AI Chat for Workflows**: AI provides real-time assistance, report generation, and status updates to improve decision-making.
+- **Automated Work Summaries & AI Recommendations**: AI generates daily updates, task summaries, and personalized suggestions to enhance efficiency.
+- **Goal Setting & Workflow Optimization**: AI helps employees and managers set goals, track milestones, and optimize productivity strategies.
+
+### 5.4 **Customizable & Secure Cloud-Based Platform**
+- **Configurable Access & Role-Based Management**: Different levels of access ensure employees, managers, and admins see only relevant data.
+- **Data Privacy & Security**: All data is securely processed on AWS, ensuring industry-leading compliance and encryption.
+- **No AI Model Training on User Data**: Client data is not used for AI model training or stored for future AI processing.
 
 ---
 
@@ -105,19 +123,17 @@ Telemore provides the following features:
 ### 6.1 Billing
 - Subscriptions are billed on a recurring basis as specified during the signup process.
 - Payment is required via accepted methods (e.g., credit cards, ACH).
+- **Any changes to billing terms or subscription fees will be communicated via email or updates to these Terms of Service.**
 
 ### 6.2 Refunds
 - Subscription fees are non-refundable except as required by law or explicitly stated in your agreement.
-
-### 6.3 Taxes
-- You are responsible for any applicable taxes, duties, or charges related to your Subscription.
 
 ---
 
 ## 7. AWS Hosting and Security Commitments
 
 ### 7.1 Use of AWS Infrastructure
-- The Service is hosted on **AWS**, leveraging state-of-the-art data centers and robust infrastructure.
+- The Service is hosted on AWS, leveraging state-of-the-art data centers and robust infrastructure.
 - AWS ensures high availability, scalability, and compliance with global data protection standards.
 
 ### 7.2 Security Practices
@@ -137,33 +153,44 @@ Telemore provides the following features:
 ## 8. Generative AI Disclaimer
 
 ### 8.1 Accuracy and Limitations
-- Generative AI outputs, powered by **Amazon Bedrock**, may not always be accurate, complete, or contextually appropriate.
-- Outputs are for informational purposes only and should be independently verified.
+- AI-generated insights are powered by Amazon Bedrock, which does not use user data for training.
+- AI-generated outputs should be verified before making decisions.
 
-### 8.2 Third-Party Privacy Policy
-- Use of generative AI features is subject to **Amazon Bedrock’s Privacy Policy**: [AWS Privacy](https://aws.amazon.com/privacy/).
+### 8.2 Data Confidentiality and Model Privacy
+- **No Data Storage Beyond Session**: AI-generated responses are not stored beyond the active session unless explicitly saved by the user.
+- **No Model Training or Data Learning**: Telemore’s AI does not train, fine-tune, or retain user inputs.
 
-### 8.3 Liability
-- Telemore is not liable for damages resulting from reliance on AI-generated outputs. Clients bear full responsibility for verifying and using the results.
+### 8.3 Third-Party Privacy Policy
+- AI processing is subject to [AWS Bedrock’s Privacy Policy](https://aws.amazon.com/privacy/).
 
 ---
 
-## 9. Data Privacy and Monitoring
+## 9. Data Privacy, Monitoring, and Client Responsibilities
 
 ### 9.1 Data Ownership
-- Clients retain ownership of their Monitoring Data, while Telemore processes it solely to deliver the Service.
+- **Clients retain full ownership** of all Monitoring Data, insights, analytics, and intellectual property derived from their data.
+- **All client data will be deleted immediately upon request.** To initiate a deletion or termination, please email support@telemore.ai.
 
-### 9.2 Privacy Policy
-- Monitoring Data is handled in accordance with Telemore’s [Privacy Policy](#), which outlines data collection, use, and retention practices.
+### 9.2 Limited Use of Data
+Telemore only processes client data for:
+- Operating and maintaining the Service.
+- Troubleshooting technical issues.
+- Ensuring security and compliance.
+
+### 9.3 Employee Notification and Legal Compliance
+- It is the **client’s sole responsibility** to ensure that employees are informed about the monitoring practices.
+- Clients must ensure that all relevant employment and privacy laws are followed.
 
 ---
 
 ## 10. Acceptable Use Policy
 
 You agree not to:
-- Use the Service for surveillance outside authorized workplace contexts.
-- Upload malware, unauthorized software, or harmful content.
-- Violate any applicable laws or infringe on others’ rights.
+- Use the Service for unauthorized surveillance outside approved workplace contexts.
+- Upload, distribute, or otherwise make available malware, unauthorized software, or harmful content.
+- Engage in activities such as unauthorized data scraping, excessive automated requests, or any actions that may disrupt or compromise the security or performance of the Service.
+- Attempt to circumvent or undermine security measures, access restrictions, or interfere with other users’ use of the Service.
+- Use the Service to harass, abuse, or harm others, or in any manner that violates applicable laws or the rights of third parties.
 
 ---
 
@@ -172,39 +199,41 @@ You agree not to:
 Telemore may:
 - Modify features or functionality for improvement or compliance purposes.
 - Provide advance notice for significant changes, where possible.
+- Update these Terms as needed. Continued use of the Service after such updates constitutes acceptance of the new terms.
 
 ---
 
 ## 12. Service Availability and Performance
 
-While Telemore strives for 99.9% uptime:
-- Downtime may occur due to scheduled maintenance, third-party outages, or force majeure events.
+- Telemore aims for 99.9% uptime; however, downtime may occur due to scheduled maintenance, third-party issues, or force majeure events.
 
 ---
 
-## 13. Termination of Accounts
+## 13. Termination of Accounts and Data Deletion
 
-Telemore may terminate accounts for:
-- Non-payment of fees.
-- Breach of these Terms or applicable laws.
+- Telemore may terminate accounts for non-payment, breaches of these Terms, or other unauthorized activities, with notice where possible.
+- Clients can terminate their accounts at any time by emailing support@telemore.ai. Upon termination, all client data will be deleted immediately upon request.
+- Termination does not absolve the Client of any outstanding payment obligations.
 
 ---
 
 ## 14. Limitation of Liability
 
-Telemore’s liability is capped at the total Subscription fees paid in the 12 months preceding the claim. Indirect, consequential, or incidental damages are excluded.
+- Telemore’s liability is limited to the total subscription fees paid in the past 12 months.
+- In no event shall Telemore be liable for indirect, incidental, or consequential damages.
 
 ---
 
 ## 15. Indemnification
 
-Clients agree to indemnify Telemore against claims arising from misuse of the Service, breaches of these Terms, or unauthorized activities.
+Clients agree to indemnify and hold harmless Telemore against claims arising from misuse of the Service, breaches of these Terms, or unauthorized activities.
 
 ---
 
 ## 16. Dispute Resolution and Arbitration
 
-Disputes will be resolved through binding arbitration in Nevada, USA. Mediation is encouraged as a first step.
+- All disputes will be resolved via arbitration in Nevada, USA, under the applicable arbitration rules.
+- Clients agree to waive the right to participate in any class action or collective legal proceeding.
 
 ---
 
@@ -228,5 +257,11 @@ Feedback submitted to Telemore becomes its property, granting us rights to use a
 
 ## 20. Contact Information
 
-For questions or concerns about these Terms:
-- **Email**: support@telemore.ai
+For questions about these Terms, please contact us at:
+- **Email:** support@telemore.ai
+
+---
+
+## 21. Changes to Terms
+
+Telemore reserves the right to modify these Terms at any time. If you continue to use the Service after the updated Terms are posted, you are deemed to have accepted the modifications.
