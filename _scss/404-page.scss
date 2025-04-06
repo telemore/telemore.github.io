@@ -1,0 +1,105 @@
+#error-page{
+    position: relative;
+
+    .section-container{
+        .header-container{
+            position: absolute;
+            text-align: center;
+            padding-bottom: 0;
+            left: 0;
+            right: 0;
+            top: 40%;
+            transform: translateY(-40%);
+            -webkit-transform: translateY(-40%);
+            -moz-transform: translateY(-40%);
+            -o-transform: translateY(-40%);
+            -ms-transform: translateY(-40%);
+
+            .sub-text{
+                display: block;
+                font-size: 34px;
+                font-weight: 400;
+                margin-bottom: 10px;
+            }
+
+            .header{
+                color: #0984e3;
+                font-family: "Poppins", Sans-serif;
+                font-size: 70px;
+                font-weight: 600;
+                margin-bottom: 10px;
+            }
+            .subheader-text{
+                display: block;
+                font-size: 34px;
+                font-weight: 700;
+                margin-bottom: 50px;
+            }
+
+            .header-button{
+                text-transform: uppercase;
+                background-color: #0984e3;
+                border-radius: .5rem;
+                color: #fff;
+                flex: none;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.5;
+                max-height: 3.75rem;
+                max-width: 14rem;
+                padding: 1rem 2.375rem;
+                text-align: center;
+                width: 100%;
+                text-decoration: none;
+                transition: all .2s linear;
+                -webkit-transition: all .2s linear;
+                -mos-transition: all .2s linear;
+                -o-transition: all .2s linear;
+                -ms-transition: all .2s linear;
+
+                &:hover{
+                    background-color: #0672c5;
+                }
+            }
+        }
+    }
+}
+
+@media (min-width: 1440px){
+    #error-page{
+        min-height: 720px;
+    }
+}
+
+@media (max-width: 1440px){
+    #error-page{
+        min-height: 540px;
+    }
+}
+
+@media (max-width: 768px){
+    #error-page{
+        min-height: calc(100vh - 250px);
+
+        .section-container{
+            .header-container{
+                .sub-text{
+                    font-size: 22px;
+                }
+
+                .header{
+                    font-size: 38px
+                }
+
+                .subheader-text{
+                    font-size: 22px;
+                    margin-bottom: 40px;
+                }
+
+                .header-button{
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}
