@@ -6,7 +6,7 @@ nav:
     isDropDown: true
     subMenu:
       - text: AI Productivity Tool
-        link: /ai-productivity/
+        link: /
         desc: Chat with your tasks to plan your work
       - text: Employee Analytics
         link: /employee-analytics/
@@ -57,15 +57,15 @@ footer-social-media:
  
 
 home-intro-header-text: Generative AI Empowered Productivity
-home-intro-colored-text: "Analytics"
+home-intro-colored-text: "Application"
 home-intro-header-subtext: Telemore analyzes Employee activity to provide Insights on their Tasks with Actionable Recommendations
 
 
 video-banner-aria: Employee productivity monitoring software
 home-intro-image: /assets/image/home-video-banner.png
 home-intro-video: /assets/video/landing_page_sample.mp4
-home-intro-button-text1: Join the Waitlist
-home-intro-button-link1: https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform # https://telemore.app
+home-intro-button-text1: Download
+home-intro-button-link1: #https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform # https://telemore.app
 
 home-intro-button-text2: Request a Demo
 home-intro-button-href: https://calendly.com/telemore
