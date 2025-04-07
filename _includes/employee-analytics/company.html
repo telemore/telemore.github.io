@@ -1,10 +1,10 @@
 <div class="section-container mb-5">
     <div class="company-list-container container pb-5 pt-5">
         <div class="header-container">
-            <h3 class="header text-center">{{ site.data.home.home-company-header }}</h3>
+            <h3 class="header text-center">{{ site.data.employee-analytics.employee-company-header }}</h3>
         </div>
         <div class="row justify-content-evenly align-items-center mt-3 company-logo-container">
-            {% for item in site.data.home.home-company-list %}
+            {% for item in site.data.employee-analytics.employee-company-list %}
             <div class="col-md-2 col-12 company-item text-center">
                 <img src="{{ item.image }}" alt="{{ item.alt }}" class="company-image logo-{{ forloop.index }} center-block"/>
             </div>

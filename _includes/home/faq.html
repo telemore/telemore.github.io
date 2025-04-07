@@ -1,0 +1,114 @@
+<div class="section-container container" id="faq">
+    <div class="row align-items-center content-container text-center text-sm-start">
+        <div class="col-md-12 left-section">
+            <h2 class="header more-details-title">Learn more about us</h2>
+        </div>
+    </div>
+</div>
+
+<div class="section-container container">
+    <div class="faq-container">
+        <div class="faq-item">
+            <button class="faq-question">What features and capabilities does Telemore provide?</button>
+            <div class="faq-answer">
+                <p>Telemore is an AI employee productivity monitoring software that provides managers with a comprehensive view of employee activity, task progress, and productivity levels without the need for micromanagement.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What differentiates Telemore from other employee monitoring software?</button>
+            <div class="faq-answer">
+                <p>Telemore helps businesses monitor employee productivity, manage tasks, and streamline workflows with minimal disruption to daily operations. Its AI-driven insights provide actionable recommendations to improve performance.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What data loss features come included?</button>
+            <div class="faq-answer">
+                <p>Telemore includes secure data storage and backup features, ensuring that no data is lost during monitoring or system malfunctions. Your data is encrypted and backed up regularly for safety.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">How can I be sure my data and privacy is kept safe?</button>
+            <div class="faq-answer">
+                <p>Telemore is designed with security at the forefront. We use encryption and comply with industry-leading privacy protocols to safeguard your employee data while maintaining user privacy. We do not access or store your data beyond troubleshooting needs.</p>
+            </div>
+        </div>
+
+        <div class="faq-item">
+            <button class="faq-question">What can I expect to get out of using Telemore?</button>
+            <div class="faq-answer">
+                <p>Using Telemore, you can expect increased employee productivity, smoother workflows, and data-driven insights into task completion, performance trends, and potential productivity bottlenecks. Telemore helps you optimize team management while providing transparency into daily activities.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script>
+    document.querySelectorAll('.faq-question').forEach((button) => {
+        button.addEventListener('click', function() {
+            const faqItem = this.closest('.faq-item');
+            faqItem.classList.toggle('active');
+        });
+    });
+</script>
+
+<style>
+    #faq {
+        padding-top: 20px; /* Reduced top padding */
+        padding-bottom: 10px; /* Reduced bottom padding */
+    }
+
+    .faq-container .faq-item {
+        margin-bottom: 10px; /* Adjusted margin between items */
+    }
+
+    .faq-container .faq-question {
+        background-color: #f1f1f1;
+        border: none;
+        padding: 15px; /* Increased padding for better readability */
+        text-align: left;
+        width: 100%;
+        cursor: pointer;
+        font-size: 20px; /* Increased font size */
+        font-weight: 600; /* Made font more prominent */
+        font-family: "Poppins", Sans-serif;
+    }
+
+    .faq-container .faq-answer {
+        display: none;
+        padding: 15px; /* Increased padding for better readability */
+        background-color: #f9f9f9;
+        margin-top: 5px;
+        border-left: 3px solid #007bff;
+        font-size: 16px; /* Slightly larger font size for better clarity */
+    }
+
+    .faq-container .faq-item.active .faq-answer {
+        display: block;
+    }
+
+    .more-details-title {
+        font-size: 56px; /* Increased title size for prominence */
+        font-weight: 700; /* Made title bold */
+        line-height: 1.2;
+        margin-bottom: 20px; /* Increased margin for better spacing */
+        font-family: "Poppins", Sans-serif;
+        text-align: center;
+    }
+
+    @media (max-width: 768px) {
+        #faq .faq-container .faq-question {
+            font-size: 18px; /* Adjusted font size for smaller screens */
+        }
+
+        #faq .faq-container .faq-answer {
+            font-size: 15px; /* Adjusted font size for smaller screens */
+        }
+
+        #faq .more-details-title {
+            font-size: 42px; /* Adjusted for smaller screens */
+        }
+    }
+</style>

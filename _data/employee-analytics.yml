@@ -1,0 +1,63 @@
+employee-intro-header-text: Generative AI Empowered Productivity
+employee-intro-colored-text: "Monitoring"
+employee-intro-header-subtext: Telemore analyzes Employee activity to provide Insights on their Tasks with Actionable Recommendations
+
+
+video-banner-aria: Employee productivity monitoring software
+employee-intro-image: /assets/image/home-video-banner.png
+employee-intro-video: /assets/video/landing_page_sample.mp4
+employee-intro-button-text1: Join the Waitlist
+employee-intro-button-link1: https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform # https://telemore.app
+
+employee-intro-button-text2: Request a Demo
+employee-intro-button-href: https://calendly.com/telemore
+employee-intro-button-link2: 
+
+employee-company-header: Built with Industry Experience From
+employee-company-list:
+  - image: /assets/image/aws_logo.png
+    alt: AWS Logo
+  - image: /assets/image/sig_logo.png
+    alt: Susquehanna International Group Logo
+  - image: /assets/image/capone_logo.png
+    alt: Capital One Logo
+  - image: /assets/image/tr_logo.png
+    alt: Thompson Reuters Logo
+  - image: /assets/image/emerson_logo.png
+    alt: Emerson Logo
+
+
+employee-service-header: Insights that Matter
+employee-service-description: "Go beyond raw metrics with Telemore, a perfect employee monitoring software to transforms complex data into actionable insights and personalized coaching, empowering your team to perform better and optimize workflows"
+employee-service-list:
+  - subheader: Managers
+    title: See employee activity logs with AI feedback
+    description: Get detailed insights into workflows with AI-driven feedback. Using an LLM model and secure access to screens and telemetry, Telemore delivers precise summaries and actionable recommendations to boost productivity
+    image: /assets/image/service1.png
+    video: /assets/video/service/activity-log-demo.webm
+  - subheader: Employees
+    title: Control monitoring and get help with tasks
+    description: Toggle the monitoring to start working timer and get personalized guidance and recommendations on their tasks. Screen Recordings are used to monitor actions
+    image: /assets/image/service2.png
+    video: /assets/video/service/monitoring-demo.webm
+  - subheader: Managers
+    title: Setup alerts and rules to enforce compliance & productivity
+    description: Built-in detectors set up guardrails for your employees when they are on working time. Receive alerts on infractions to provide visibility
+    image: /assets/image/service3.png
+    video: /assets/video/service/detectors-demo.webm
+
+employee-integration-header: "Built with Security and Privacy First"
+employee-integration-description: "Telemore prioritizes data protection and compliance, delivering secure solutions that maintain transparency and meet the highest privacy standards"
+employee-integration-bg: /assets/image/integrations-bg-landscape.png
+employee-integration-list:
+  - title: End-to-End Data Encryption
+    description: All data (stored & in-transit) is encrypted using industry-leading standards such as AES-256 and TLS 1.3, ensuring sensitive information is safeguarded against unauthorized access
+  - title: Privacy Adherence
+    description: We respect employee's privacy—we never record the webcam or microphone. Most of our monitoring centers around screenshot video data and metadata from running processes to provide the input to insights generated
+  - title: SOC 2 Type II/ ISO 27001
+    description: Estimated for mid-2025. We are currently working with our compliance specialist to document procedures and submit evidence of controls for the auditor
+employee-support-header: What Makes Telemore a Perfect Employee Monitoring Software?
+employee-support-description: At Telemore, we prioritize empowering businesses with tools that enhance productivity, maintain transparency, and respect employee privacy. Telemore employee productivity monitoring software is designed with innovation and security in mind, our platform integrates seamlessly into your workflow to deliver actionable insights that drive success.
+employee-support-image: /assets/image/success-with-telemore.png
+employee-support-image-alt: Remote employee Productivity monitoring software
+
