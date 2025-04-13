@@ -1,6 +1,6 @@
 home-intro-header-text: Generative AI Empowered Productivity
 home-intro-colored-text: "Application"
-home-intro-header-subtext: Telemore analyzes Employee activity to provide Insights on their Tasks with Actionable Recommendations
+home-intro-header-subtext: Telemore enhances productivity through intelligent task tracking, delivering AI-powered insights that help you plan, prioritize, and complete tasks more effectively
 
 video-banner-aria: Employee productivity monitoring software
 home-intro-image: /assets/image/home-video-banner.png
@@ -26,36 +26,36 @@ home-company-list:
     alt: Emerson Logo
 
 
-home-service-header: Insights that Matter
-home-service-description: "Go beyond raw metrics with Telemore, a perfect employee monitoring software to transforms complex data into actionable insights and personalized coaching, empowering your team to perform better and optimize workflows"
+home-service-header: Agentic Task Execution
+home-service-description: "Let AI enhance your task management. Telemore's intelligent agents actively assist with your workflow by automatically prioritizing tasks, suggesting optimal execution strategies, and streamlining routine processes. Experience the next generation of productivity where AI doesn't just track work—it helps get it done."
 home-service-list:
-  - subheader: Managers
-    title: See employee activity logs with AI feedback
-    description: Get detailed insights into workflows with AI-driven feedback. Using an LLM model and secure access to screens and telemetry, Telemore delivers precise summaries and actionable recommendations to boost productivity
+  - subheader:
+    title: Chat with your tasks
+    description: Manage your workflow through intuitive AI conversations. Ask questions about progress, request priority insights, or identify bottlenecks—all through simple conversation that transforms task management into a streamlined, responsive experience.
     image: /assets/image/service1.png
-    video: /assets/video/service/activity-log-demo.webm
-  - subheader: Employees
-    title: Control monitoring and get help with tasks
-    description: Toggle the monitoring to start working timer and get personalized guidance and recommendations on their tasks. Screen Recordings are used to monitor actions
+    video: /assets/video/service/chat-demo.webm
+  - subheader:
+    title: Task management automation
+    description: Simplify your productivity with having your tasks automatically managed for you at your fingertips. No need to write the descriptions or updates manually.
     image: /assets/image/service2.png
-    video: /assets/video/service/monitoring-demo.webm
-  - subheader: Managers
-    title: Setup alerts and rules to enforce compliance & productivity
-    description: Built-in detectors set up guardrails for your employees when they are on working time. Receive alerts on infractions to provide visibility
-    image: /assets/image/service3.png
-    video: /assets/video/service/detectors-demo.webm
+    video: /assets/video/service/task-management-demo.webm
+  - subheader:
+    title: Leverage AI recommendations
+    description: Transform your workflow with smart, data-driven guidance. Telemore's AI analyzes work patterns to suggest priorities, identify bottlenecks, and recommend personalized strategies
+    image: /assets/image/task-recommendation.png
+    video: /assets/video/service/task-recommendation-demo.webm
 
 home-integration-header: "Built with Security and Privacy First"
 home-integration-description: "Telemore prioritizes data protection and compliance, delivering secure solutions that maintain transparency and meet the highest privacy standards"
 home-integration-bg: /assets/image/integrations-bg-landscape.png
 home-integration-list:
   - title: End-to-End Data Encryption
-    description: All data (stored & in-transit) is encrypted using industry-leading standards such as AES-256 and TLS 1.3, ensuring sensitive information is safeguarded against unauthorized access
+    description: All data (stored & in-transit) is encrypted using industry-leading standards such as AES-256 and TLS 1.3, ensuring sensitive information is safeguarded against unauthorized access.
   - title: Privacy Adherence
-    description: We respect employee's privacy—we never record the webcam or microphone. Most of our monitoring centers around screenshot video data and metadata from running processes to provide the input to insights generated
+    description:  All conversations with the AI assistant stay completely confidential and aren't logged or stored. You maintain complete ownership of all your information, and we never use your data to train our systems or share it with third parties.
   - title: SOC 2 Type II/ ISO 27001
-    description: Estimated for mid-2025. We are currently working with our compliance specialist to document procedures and submit evidence of controls for the auditor
-home-support-header: What Makes Telemore a Perfect Employee Monitoring Software?
-home-support-description: At Telemore, we prioritize empowering businesses with tools that enhance productivity, maintain transparency, and respect employee privacy. Telemore employee productivity monitoring software is designed with innovation and security in mind, our platform integrates seamlessly into your workflow to deliver actionable insights that drive success.
+    description: Estimated for mid-2025. We are currently working with our compliance specialist to document procedures and submit evidence of controls for the auditor.
+home-support-header: What Makes Telemore a Powerful Productivity Task Tracker?
+home-support-description: Telemore transforms productivity through AI-driven insights tailored to your workflow. Our conversational interface enables natural task interaction while intelligent automation organizes priorities and streamlines processes automatically. The system delivers personalized recommendations to optimize your approach, helping you work smarter through adaptive assistance that continuously improves based on your unique patterns.
 home-support-image: /assets/image/success-with-telemore.png
-home-support-image-alt: Remote employee Productivity monitoring software
+home-support-image-alt: AI Productivity Tracker

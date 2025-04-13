@@ -6,24 +6,25 @@ pricing-price-list:
     button-text: "Sign Up Free"
     button-link: "https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform"
     package:
-      - text: "Manage one employee"
-      - text: "Create 5 tasks per week"
+      - text: "Manage up to 6 tasks at a time"
+      - text: "AI Recommendations"
       - text: "Limited chat capabilities"
-      - text: "Basic email support"
-      - text: "Help center access"
-  - title: PRO
-    price: "$15"
+      - text: "Limited task capabilities"
+      - text: "Basic support"
+  - title: PREMIUM
+    price: "$10"
     subtext: "/month"
     button-text: "Upgrade to Pro"
     button-link: "https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform"
     featured: true
     package:
-      - text: "Unlimited employee management"
-      - text: "Unlimited tasks"
-      - text: "Unlimited chat"
-      - text: "Priority email support"
-      - text: "Advanced analytics"
-      - text: "Help center access"
+      - text: "Full chat capabilities"
+      - text: "Full usage limits"
+      - text: "Planning guidance assistance"
+      - text: "Automatic agent"
+      - text: "Priority support"
+
+
   - title: ENTERPRISE
     price: "Custom"
     subtext: "pricing"
@@ -31,11 +32,11 @@ pricing-price-list:
     button-link: "https://calendly.com/telemore"
     coming-soon: true
     package:
-      - text: "All Pro features"
-      - text: "SSO/SAML integration"
-      - text: "Custom deployment"
-      - text: "Dedicated URL"
-      - text: "Phone and email priority support"
+      - text: "All Premium features"
+      - text: "Single-sign-on integration"
+      - text: "Dedicated deployment"
+      - text: "Personalized URL and Branding"
+      - text: "Phone support and escalation handling"
       - text: "Dedicated account manager"
 
 pricing-support-header: Need Help Choosing?

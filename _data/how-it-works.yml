@@ -1,57 +1,73 @@
 how-it-work-header: How Telemore Works
-how-it-work-description: "Telemore is designed to empower teams with actionable insights while maintaining simplicity.
-                          With a seamless setup, managers can quickly gain access to personalized productivity recommendations,
-                          and managers can view team trends at a glance.
-                          Our AI-powered platform transforms your team's workflows for better efficiency and focus."
+how-it-work-description: "Telemore is designed to empower individuals and teams with AI-powered productivity tools and actionable insights.
+                         With a seamless setup, users can quickly gain access to personalized task management and workflow optimization,
+                         while teams can benefit from optional productivity analytics for better collaboration.
+                         Our AI-powered platform transforms your workflow for enhanced efficiency and focus."
+
 how-it-work-list:
-  - title: "Step 1"
-    description: "After a manager registers and signs in, they can invite employees to join Telemore. Employees will have 7 days to accept before the invitation expires. "
-  - title: "Step 2"
-    description: "Employee receives email with link to install and verifies their account to finish registration. They toggle on the monitoring/ which will start the screen recording / activity analysis. Employees also create/manage their tasks while getting access to a AI chatbot to assist."
-  - title: "Step 3"
-    description: "After employee is onboarded, you can access their activity log when they are recording work hours, get news feed updates, and set up custom monitoring detectors to keep your employees on track when they work."
+  - title: "Step 1: Getting Started"
+    description: "After registering and signing in, you can immediately start using Telemore's core productivity features. Team leaders can invite team members to join their workspace for collaborative benefits. Invitations are valid for 7 days."
 
-how-it-work-service-header: Benefits to Managers
+  - title: "Step 2: Personalized Productivity"
+    description: "Users set up their productivity preferences and connect with Telemore's AI assistant. Create and manage tasks while getting intelligent recommendations on prioritization and workflow optimization. The AI chatbot is available to answer questions and provide assistance at any time."
+
+  - title: "Step 3: Optional Productivity Analytics"
+    description: "For teams seeking deeper insights, optional productivity analytics can be enabled to provide visibility into work patterns, task completion trends, and focus time metrics. This add-on feature helps identify team strengths and improvement opportunities while maintaining individual autonomy."
+
+how-it-work-service-header: Core Productivity Features
 how-it-work-service-list:
-  - title: "Employee Productivity Monitoring"
-    description: "Gain visibility into task progress, user activity, and infractions recored"
-  - title: "AI-Powered Insights"
-    description: "Receive weekly summaries, task prioritization tips, and focus recommendations tailored to individual and team needs. Converse with a chatbot for more tips"
-  - title: "Hybrid Team Support"
-    description: "Ensure productivity and alignment across remote, hybrid, and in-office teams."
-how-it-work-service-sub: "Our goal is to enhance your team's workflow while respecting privacy and minimizing distractions."
+  - title: "AI-Powered Task Management"
+    description: "Transform how you handle tasks with intelligent prioritization, automated organization, and contextual reminders that adapt to your work patterns."
 
-how-it-work-integration-header: Benefits to Employees
+  - title: "Conversational Productivity Assistant"
+    description: "Interact naturally with our AI assistant through chat to get instant task updates, workflow recommendations, and productivity insights tailored to your needs."
+
+  - title: "Focus Enhancement Tools"
+    description: "Optimize your deep work sessions with intelligent focus time suggestions, distraction management, and productivity rhythm analysis."
+
+  - title: "Team Collaboration"
+    description: "Coordinate workflows across team members with shared tasks, progress visibility, and intelligent resource allocation recommendations."
+
+how-it-work-service-sub: "Our goal is to enhance your natural workflow while respecting privacy and minimizing distractions."
+
+how-it-work-integration-header: Seamless Integration
 how-it-work-integration-description: "Telemore integrates effortlessly into your existing workflow with compatibility across:"
 how-it-work-integration-list:
   - title: "Windows, macOS, and Linux (Coming soon) operating systems."
   - title: "Popular project management tools and productivity platforms."
   - title: "Custom workflows, with optional API access for advanced use cases."
-how-it-work-integration-sub: "Setup is quick and intuitive, with no steep learning curve for managers or employees."
+how-it-work-integration-sub: "Setup is quick and intuitive, with no steep learning curve for individuals or teams."
 
-how-it-work-security-header: "Benefits to Employees"
-how-it-work-security-description: "Our platform is not only for employee monitoring, but also for improving the productivity. Take advantage of Telemore's full product suite to increase your performance"
+how-it-work-security-header: "Optional Productivity Analytics Add-on"
+how-it-work-security-description: "Our optional analytics features provide valuable insights for both individuals and teams without compromising on privacy or autonomy."
 how-it-work-security-list:
-  - title: "Controlled Monitoring "
-    description: "Employees have full control when they are being monitored (working time) by toggling on and off. "
-  - title: "Minimal Data Collection:"
-    description: "Only task and application usage data is collected, avoiding personal or sensitive information."
-  - title: "Compliance:"
-    description: "Compliance evaluation for GPDR, SOC II Type 2, and ISO 270001 are ongoing"
-how-it-work-security-sub: "Transparency is at the core of our platform. Employees can view what’s being monitored and understand how it benefits their productivity."
+  - title: "User-Controlled Visibility"
+    description: "Users have complete control over when productivity analytics are active, with clear on/off toggles and visibility into what information is being collected."
+
+  - title: "Work Pattern Insights"
+    description: "Gain visibility into productive hours, application usage patterns, and task completion trends to optimize your workflow and identify opportunities for improvement."
+
+  - title: "Privacy-First Design"
+    description: "Our analytics collect only work-relevant data, focusing on applications and activities directly related to task completion while avoiding personal or sensitive information."
+
+  - title: "Transparent Collection"
+    description: "Users always know what data is being collected and how it's being used, with the ability to access, export, or delete their own information at any time."
+
+  - title: "Compliance Standards"
+    description: "Compliance evaluation for GDPR, SOC II Type 2, and ISO 270001 are ongoing to ensure your data is handled according to industry best practices."
+
+how-it-work-security-sub: "Transparency is at the core of our platform. Users have full visibility into what information is being collected and how it benefits their productivity."
 
 how-it-work-support-header: "Support & Assistance"
 how-it-work-support-description: "Our dedicated support team is here to ensure your success with Telemore:"
 how-it-work-support-list:
-  - title: "24/7 Support:"
+  - title: "24/7 Support"
     description: "Reach us anytime via email (Contact Us tab) for technical assistance or product questions."
+
   - title: "Security & Privacy"
-    description: "Read more about our commitment to safeguarding your trust"
-  - title: "Learning Resources:"
-    description: "Access our FAQs to learn to maximize your use of Telemore."
-how-it-work-support-sub: "We’re committed to your team's productivity and growth every step of the way."
+    description: "Read more about our commitment to safeguarding your data and maintaining the highest standards of privacy protection."
 
+  - title: "Learning Resources"
+    description: "Access our FAQs and knowledge base to learn how to maximize your productivity with Telemore."
 
-  
-
-
+how-it-work-support-sub: "We're committed to your productivity and growth every step of the way."

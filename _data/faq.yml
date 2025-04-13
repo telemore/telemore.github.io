@@ -1,54 +1,72 @@
 faq-header: "General Questions"
 faq-list:
   - title: "What is Telemore?"
-    description: "Telemore is an AI-powered productivity platform that provides actionable insights to help teams work smarter. It tracks essential metrics like task progress, application usage, and focus patterns to enhance productivity without being intrusive."
+    description: "Telemore is an AI-powered productivity platform that helps individuals and teams work smarter through intelligent task management and workflow optimization. Our core system provides personalized recommendations and insights that enhance focus and efficiency, with optional analytics features for teams seeking deeper collaboration."
+
   - title: "Who is Telemore designed for?"
-    description: "Telemore is built for organizations of all sizes, from small teams to large enterprises. It’s especially effective for hybrid and remote teams looking to optimize productivity and streamline workflows."
-  - title: "How does Telemore benefit employees?"
-    description: "Employees receive personalized productivity recommendations, insights into their work patterns, and focus tips, helping them achieve more while staying balanced and engaged."
+    description: "Telemore is built for productivity-focused individuals and organizations of all sizes. It's ideal for knowledge workers, creative professionals, and project teams looking to optimize their workflow, reduce digital overwhelm, and achieve more meaningful work. It's especially effective for hybrid and remote teams seeking better alignment and collaboration."
+
+  - title: "How does Telemore improve productivity?"
+    description: "Telemore uses AI to understand your natural work patterns and optimize your approach to tasks. It provides intelligent task prioritization, focus time recommendations, workflow automation suggestions, and conversational assistance that adapts to your unique productivity style. Optional team analytics help improve collaboration and resource allocation."
 
 
 faq-feature-header: "Features and Capabilities"
 faq-feature-list:
-  - title: "What insights does Telemore provide?"
-    description: "Telemore offers daily productivity summaries, task prioritization recommendations, focus tips, and detailed team performance dashboards for managers."
-  - title: "Does Telemore support hybrid or remote teams?"
-    description: "Yes, Telemore is designed to provide actionable insights regardless of where employees work. It ensures remote and hybrid teams stay aligned and productive."
-  - title: "Is the platform customizable?"
-    description: "Absolutely. Organizations can tailor monitoring settings, reports, and notifications to fit their unique workflows and privacy policies."
+  - title: "What core productivity features does Telemore offer?"
+    description: "Telemore's core features include AI-powered task management, conversational productivity assistance through our chatbot, focus enhancement tools, intelligent work pattern recognition, and personalized workflow optimization—all designed to help you work smarter, not harder."
 
-faq-security-header: "Security and Privacy"
+  - title: "What is the optional productivity analytics add-on?"
+    description: "For teams seeking deeper insights, our optional analytics add-on provides visibility into work patterns, task completion trends, and focus time metrics. This helps identify team strengths and improvement opportunities while respecting individual autonomy and privacy preferences."
+
+  - title: "Does Telemore support AI-powered workflow automation?"
+    description: "Yes! Telemore's AI can identify repetitive tasks and suggest automation opportunities. It can also predict task dependencies, recommend optimal scheduling, and provide context-aware assistance that adapts to your specific workflow needs."
+
+  - title: "How does the conversational assistant work?"
+    description: "Telemore's AI assistant allows you to manage tasks and get productivity insights through natural conversation. Ask about task status, request focus recommendations, or get help prioritizing your work—all through an intuitive chat interface that understands your workflow context."
+
+faq-security-header: "Privacy and Data Protection"
 faq-security-list:
   - title: "How does Telemore ensure data security?"
-    description: "Telemore uses AES-256 encryption for data in transit and at rest, along with multi-factor authentication and access controls to safeguard user information."
-  - title: "What type of data does Telemore collect?"
-    description: "Telemore collects productivity-related data, such as task progress, application usage, and engagement patterns. Personal data like messages, emails, and keystrokes are not collected."
+    description: "Telemore uses AES-256 encryption for data in transit and at rest, along with multi-factor authentication and strict access controls. Our infrastructure is hosted on AWS with enterprise-grade security protocols and regular security audits."
+
+  - title: "What information does Telemore collect?"
+    description: "Our core productivity service collects task-related data and workflow patterns needed to provide personalized recommendations. The optional analytics add-on collects additional work pattern data such as productive hours and application usage related to task completion. Personal content such as messages, emails, and keystrokes are never collected."
+
+  - title: "How does Telemore handle user privacy?"
+    description: "We follow privacy-by-design principles. Users have full control over what data is collected, with clear visibility into all analytics features. We maintain transparency about data usage, collect only what's necessary to provide our service, and never use your data to train our AI models."
+
   - title: "Is Telemore compliant with privacy regulations?"
-    description: "Yes. Telemore adheres to global standards like GDPR and CCPA, ensuring transparency and legal compliance in all data-handling practices."
+    description: "Yes. Telemore adheres to global standards like GDPR and CCPA, ensuring transparency and legal compliance in all data-handling practices. We're actively pursuing SOC 2 Type 2 and ISO 27001 certifications."
 
 faq-onboarding-header: "Setup and Onboarding"
 faq-onboarding-list:
-  - title: "How long does setup take?"
-    description: "Setup typically takes less than 30 minutes. Our onboarding specialists are available to guide you through the process step by step."
+  - title: "How long does it take to start seeing productivity benefits?"
+    description: "Most users report productivity improvements within the first week. The AI learns from your patterns and continuously improves its recommendations over time, so benefits compound the longer you use the platform."
+
   - title: "What devices and platforms does Telemore support?"
-    description: "Telemore is compatible with Windows, macOS, and Linux devices. Mobile support is currently in development and will be released soon."
-  - title: "Is training required to use Telemore?"
-    description: "Telemore is intuitive and user-friendly, with no steep learning curve. However, we provide detailed guides and optional training sessions to ensure your team gets the most out of the platform."
+    description: "Telemore is compatible with Windows and macOS devices, with Linux support coming soon. Mobile companion apps for iOS and Android are currently in beta testing and will be released soon."
+
+  - title: "How does team onboarding work?"
+    description: "Team onboarding is simple and user-centric. After a team admin sets up the workspace, members receive invitations with clear information about the platform's features. Each user can then customize their productivity preferences and privacy settings during their personal setup process."
 
 faq-pricing-header: "Pricing and Trials"
 faq-pricing-list:
   - title: "Is there a free trial available?"
-    description: "Yes! Telemore offers a free trial so you can explore the platform and see how it benefits your team before committing."
-  - title: "How is Telemore priced?"
-    description: "Telemore uses a tiered pricing model based on the number of users and features. Contact our team for a customized quote tailored to your needs."
-  - title: "Are there discounts for large teams or annual plans?"
-    description: "Yes, we offer discounts for large teams and organizations that choose annual billing. Reach out to our sales team to learn more."
+    description: "Yes! Telemore offers a 14-day free trial of all features, including the optional analytics add-on, so you can experience the full platform and measure productivity improvements before committing."
 
-faq-pricing-header: "Support and Assistance"
-faq-pricing-list:
+  - title: "How is Telemore priced?"
+    description: "Telemore offers tiered plans: Individual (core productivity features), Professional (advanced productivity tools), and Team (includes optional analytics). The Team plan is priced per user with volume discounts. Contact our team for a customized quote."
+
+  - title: "Can I start with basic features and add analytics later?"
+    description: "Absolutely! Many teams start with our core productivity features and add the analytics component as their needs evolve. You can upgrade or modify your subscription at any time without losing your productivity data or settings."
+
+faq-support-header: "Support and Assistance"
+faq-support-list:
   - title: "What support options are available?"
-    description: "We offer 24/7 support through email and chat. Our knowledge base also provides extensive resources, including FAQs, guides, and troubleshooting tips."
-  - title: "Can I get live support during onboarding?"
-    description: "Yes! Our onboarding team provides live support and walkthroughs to ensure a smooth implementation process for your team."
+    description: "We offer 24/7 support through email and chat. Our knowledge base provides extensive resources including tutorials, best practices, and productivity optimization guides tailored to different work styles and industries."
+
+  - title: "Do you offer productivity consultations?"
+    description: "Yes! In addition to technical support, we offer optional productivity consultations to help teams maximize the platform's benefits. Our productivity specialists can provide customized strategies based on your team's specific workflow challenges."
+
   - title: "How do I contact the support team?"
-    description: "You can reach us at any time via our support portal, email, or chat directly through the Telemore platform."
+    description: "You can reach us at any time via our support portal, through email at support@telemore.ai, or chat directly through the Telemore platform. We typically respond to all inquiries within 2 hours during business hours."
