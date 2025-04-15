@@ -3,8 +3,8 @@ home-intro-colored-text: "Application"
 home-intro-header-subtext: Telemore enhances productivity through intelligent task tracking, delivering AI-powered insights that help you plan, prioritize, and complete tasks more effectively
 
 video-banner-aria: Employee productivity monitoring software
-home-intro-image: /assets/image/home-video-banner.png
-home-intro-video: /assets/video/landing_page_sample.mp4
+home-intro-image: /assets/image/explainer-pic.png
+#home-intro-video: /assets/video/landing_page_sample.mp4
 home-intro-button-text1: Download
 home-intro-button-link1: #https://docs.google.com/forms/d/e/1FAIpQLSd5rUkIAl9VITNJnhb_w039tlQi_izAsm17MMDOVCAfWKvMRQ/viewform # https://telemore.app
 

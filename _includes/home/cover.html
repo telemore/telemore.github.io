@@ -17,21 +17,21 @@
                                 </svg>
                             </button>
                             <ul class="dropdown-menu animate__animated animate__fadeIn" aria-labelledby="downloadDropdown" style="min-width: 280px; border-radius: 8px; margin-top: 8px; box-shadow: 0 8px 24px rgba(0,0,0,0.15); border: none; padding: 10px 0; overflow: hidden;">
-                                <li><a class="dropdown-item py-3 px-4" href="{{ site.data.home.home-intro-button-link1 }}" style="font-size: 16px; transition: all 0.2s ease; position: relative;">
+                                <li><a class="dropdown-item py-3 px-4" href="javascript:void(0);" onclick="downloadFile('https://d3m3wl0ik6sdpk.cloudfront.net/Telemore.exe', 'Telemore.exe')" style="font-size: 16px; transition: all 0.2s ease; position: relative;">
                                     <span>Windows</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-download position-absolute" viewBox="0 0 16 16" style="right: 15px; opacity: 0; transition: opacity 0.2s ease;">
                                         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                                         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
                                     </svg>
                                 </a></li>
-                                <li><a class="dropdown-item py-3 px-4" href="{{ site.data.home.home-intro-button-link1 }}" style="font-size: 16px; transition: all 0.2s ease; position: relative;">
+                                <li><a class="dropdown-item py-3 px-4" href="javascript:void(0);" onclick="downloadFile('https://d3m3wl0ik6sdpk.cloudfront.net/Telemore-1.0.0-arm64.dmg', 'Telemore-arm64.dmg')" style="font-size: 16px; transition: all 0.2s ease; position: relative;">
                                     <span>Mac - Arm (M1, M2, M3, M4)</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-download position-absolute" viewBox="0 0 16 16" style="right: 15px; opacity: 0; transition: opacity 0.2s ease;">
                                         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
                                         <path d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708l3 3z"/>
                                     </svg>
                                 </a></li>
-                                <li><a class="dropdown-item py-3 px-4" href="{{ site.data.home.home-intro-button-link1 }}" style="font-size: 16px; transition: all 0.2s ease; position: relative;">
+                                <li><a class="dropdown-item py-3 px-4" href="javascript:void(0);" onclick="downloadFile('https://d3m3wl0ik6sdpk.cloudfront.net/Telemore-1.0.0.dmg', 'Telemore-1.0.0.dmg')" style="font-size: 16px; transition: all 0.2s ease; position: relative;">
                                     <span>Mac - Intel</span>
                                     <svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" fill="currentColor" class="bi bi-download position-absolute" viewBox="0 0 16 16" style="right: 15px; opacity: 0; transition: opacity 0.2s ease;">
                                         <path d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5z"/>
@@ -70,6 +70,56 @@
                         </style>
 
                         <script>
+                            // Download helper function
+                            function downloadFile(url, fileName) {
+                                console.log(`Starting download: ${url} as ${fileName}`);
+
+                                // Method 1: Try using fetch API first (better for cross-origin requests)
+                                fetch(url, {
+                                    method: 'GET',
+                                    mode: 'cors',
+                                    cache: 'no-cache'
+                                })
+                                    .then(response => response.blob())
+                                    .then(blob => {
+                                        const blobUrl = window.URL.createObjectURL(blob);
+                                        const link = document.createElement('a');
+                                        link.href = blobUrl;
+                                        link.download = fileName;
+
+                                        // Append to document
+                                        document.body.appendChild(link);
+
+                                        // Trigger click
+                                        link.click();
+
+                                        // Cleanup
+                                        window.URL.revokeObjectURL(blobUrl);
+                                        document.body.removeChild(link);
+                                    })
+                                    .catch(error => {
+                                        console.error('Download failed, trying alternative method:', error);
+
+                                        // Method 2: Fallback to direct link with download attribute
+                                        const link = document.createElement('a');
+                                        link.href = url;
+                                        link.download = fileName;
+                                        link.target = '_blank';
+                                        link.rel = 'noopener noreferrer';
+
+                                        // Append to document
+                                        document.body.appendChild(link);
+
+                                        // Trigger click
+                                        link.click();
+
+                                        // Cleanup
+                                        setTimeout(() => {
+                                            document.body.removeChild(link);
+                                        }, 100);
+                                    });
+                            }
+
                             // Add animate.css if not already included
                             document.addEventListener('DOMContentLoaded', function() {
                                 if (!document.querySelector('link[href*="animate.css"]')) {
@@ -80,9 +130,6 @@
                                 }
                             });
                         </script>
-                        <!-- <a href="{{ site.data.home.home-intro-button-href }}" class="intro-button demo-button">
-                            {{ site.data.home.home-intro-button-text2 }}
-                        </a> -->
                     </div>
                 </div>
             </div>
@@ -90,44 +137,9 @@
         <div class="right-section col-lg-6 col-12">
             <!-- Poster Container with Play Button -->
             <div id="video-poster-container" class="intro-image-container">
-                <button id="play-button" class="play-button" style="border: none; background: transparent; padding: 0;">
-                    <img src="{{ site.data.home.home-intro-image }}" class="d-block img-fluid intro-image" alt="{{ site.data.home.video-banner-aria }}" />
-                    <img src="/assets/image/video-button.png" class="button-icon" alt="Play" />
-                </button>
-            </div>
-            <!-- Video Container (Hidden by Default) -->
-            <div id="video-player-container" class="video-player-container" style="display: none;">
-                <video id="video-player" class="video-player" playsinline controls width="100%" preload="none" poster="{{ site.data.home.home-intro-image }}" aria-label="{{ site.data.home.video-banner-aria }}">
-                    Your browser does not support the video tag.
-                </video>
+                <img src="{{ site.data.home.home-intro-image }}" class="d-block img-fluid intro-image" alt="{{ site.data.home.video-banner-aria }}" />
+                <!-- Play button is removed -->
             </div>
         </div>
     </div>
 </div>
-
-<!-- Lazy-Loading Script -->
-<script>
-    document.addEventListener('DOMContentLoaded', function() {
-        var playButton = document.getElementById('play-button');
-        var videoPosterContainer = document.getElementById('video-poster-container');
-        var videoPlayerContainer = document.getElementById('video-player-container');
-        var videoPlayer = document.getElementById('video-player');
-
-        playButton.addEventListener('click', function() {
-            // Hide the poster container
-            videoPosterContainer.style.display = 'none';
-            // Show the video container
-            videoPlayerContainer.style.display = 'block';
-
-            // Create and append the WebM source element
-            var sourceWebm = document.createElement('source');
-            sourceWebm.src = '/assets/video/service/Telemore_Update.webm';
-            sourceWebm.type = 'video/webm';
-            videoPlayer.appendChild(sourceWebm);
-
-            // Load and play the video
-            videoPlayer.load();
-            videoPlayer.play();
-        });
-    });
-</script>
