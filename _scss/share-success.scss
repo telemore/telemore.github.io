@@ -1,0 +1,176 @@
+#share-success-page {
+    position: relative;
+
+    .section-container {
+        .header-container {
+            position: absolute;
+            text-align: center;
+            padding-bottom: 0;
+            left: 0;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -o-transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 0 20px;
+
+            .success-icon {
+                margin-bottom: 30px;
+                
+                svg {
+                    animation: checkmark 0.5s ease-in-out;
+                }
+            }
+
+            .header {
+                color: #333333;
+                font-family: "Poppins", Sans-serif;
+                font-size: 42px;
+                font-weight: 600;
+                margin-bottom: 20px;
+                line-height: 1.2;
+            }
+
+            .subheader-text {
+                display: block;
+                font-size: 20px;
+                font-weight: 400;
+                margin-bottom: 40px;
+                color: #666666;
+            }
+
+            .instructions {
+                background-color: #f8f9fa;
+                border-radius: 10px;
+                padding: 30px;
+                margin-bottom: 40px;
+                text-align: left;
+
+                ol {
+                    margin: 0;
+                    padding-left: 20px;
+                    
+                    li {
+                        font-size: 18px;
+                        line-height: 1.8;
+                        color: #333333;
+                        margin-bottom: 10px;
+                        
+                        &:last-child {
+                            margin-bottom: 0;
+                        }
+                    }
+                }
+            }
+
+            .header-button {
+                text-transform: uppercase;
+                background-color: #0984e3;
+                border-radius: .5rem;
+                color: #fff;
+                display: inline-block;
+                font-size: 16px;
+                font-weight: 600;
+                line-height: 1.5;
+                padding: 1rem 2.375rem;
+                text-align: center;
+                text-decoration: none;
+                transition: all .2s linear;
+                -webkit-transition: all .2s linear;
+                -mos-transition: all .2s linear;
+                -o-transition: all .2s linear;
+                -ms-transition: all .2s linear;
+                margin-bottom: 30px;
+
+                &:hover {
+                    background-color: #0672c5;
+                    color: #fff;
+                }
+            }
+
+            .secondary-link {
+                font-size: 16px;
+                color: #666666;
+                margin: 0;
+
+                a {
+                    color: #0984e3;
+                    text-decoration: none;
+                    font-weight: 500;
+
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@keyframes checkmark {
+    0% {
+        transform: scale(0);
+        opacity: 0;
+    }
+    50% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+@media (min-width: 1440px) {
+    #share-success-page {
+        min-height: 800px;
+    }
+}
+
+@media (max-width: 1440px) {
+    #share-success-page {
+        min-height: 640px;
+    }
+}
+
+@media (max-width: 768px) {
+    #share-success-page {
+        min-height: calc(100vh - 150px);
+
+        .section-container {
+            .header-container {
+                .header {
+                    font-size: 32px;
+                }
+
+                .subheader-text {
+                    font-size: 18px;
+                    margin-bottom: 30px;
+                }
+
+                .instructions {
+                    padding: 20px;
+                    margin-bottom: 30px;
+
+                    ol li {
+                        font-size: 16px;
+                    }
+                }
+
+                .header-button {
+                    font-size: 14px;
+                    padding: 0.8rem 1.8rem;
+                    margin-bottom: 20px;
+                }
+
+                .secondary-link {
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+}

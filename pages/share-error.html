@@ -1,0 +1,49 @@
+---
+layout: pages-layout/share-error
+permalink: /share-error/
+title: Document Share Error - Telemore AI
+description: "Unable to process document share. Please contact the person who shared this document with you."
+---
+
+<div id="share-error-page">
+    <div class="container section-container">
+        <div class="header-container">
+            <div class="error-icon">
+                <svg xmlns="http://www.w3.org/2000/svg" width="80" height="80" fill="#dc3545" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M7.002 11a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 4.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 4.995z"/>
+                </svg>
+            </div>
+            <h1 class="header">Unable to Process Document Share</h1>
+            <p class="subheader-text" id="error-message">Something went wrong. Please contact the person who shared this document with you.</p>
+            
+            <div class="instructions">
+                <p>To receive shared documents, you need the Telemore desktop application</p>
+            </div>
+
+            <a href="https://telemore.ai" class="header-button">Download Telemore</a>
+        </div>
+    </div>
+</div>
+
+<script>
+// Parse URL query parameters to display appropriate error message
+document.addEventListener('DOMContentLoaded', function() {
+    const urlParams = new URLSearchParams(window.location.search);
+    const reason = urlParams.get('reason');
+    const errorMessageEl = document.getElementById('error-message');
+    
+    if (reason) {
+        switch(reason) {
+            case 'missing-token':
+                errorMessageEl.textContent = 'This share link is invalid or has expired';
+                break;
+            case 'processing-failed':
+                errorMessageEl.textContent = 'We couldn\'t process this share request';
+                break;
+            default:
+                errorMessageEl.textContent = 'Something went wrong. Please contact the person who shared this document with you.';
+        }
+    }
+});
+</script>
