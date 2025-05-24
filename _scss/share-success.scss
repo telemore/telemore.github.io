@@ -139,25 +139,47 @@
 
 @media (max-width: 768px) {
     #share-success-page {
-        min-height: calc(100vh - 150px);
+        min-height: calc(100vh - 120px);
+        padding-top: 80px;
+        padding-bottom: 60px;
 
         .section-container {
             .header-container {
+                position: relative;
+                top: auto;
+                transform: none;
+                -webkit-transform: none;
+                -moz-transform: none;
+                -o-transform: none;
+                -ms-transform: none;
+                padding: 20px;
+
+                .success-icon {
+                    margin-bottom: 20px;
+                    
+                    svg {
+                        width: 60px;
+                        height: 60px;
+                    }
+                }
+
                 .header {
-                    font-size: 32px;
+                    font-size: 28px;
+                    margin-bottom: 15px;
                 }
 
                 .subheader-text {
-                    font-size: 18px;
-                    margin-bottom: 30px;
+                    font-size: 16px;
+                    margin-bottom: 25px;
                 }
 
                 .instructions {
                     padding: 20px;
-                    margin-bottom: 30px;
+                    margin-bottom: 25px;
 
                     ol li {
-                        font-size: 16px;
+                        font-size: 15px;
+                        line-height: 1.6;
                     }
                 }
 
