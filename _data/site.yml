@@ -39,6 +39,10 @@ nav:
     text: Contact Us
     link: /contact-us/
     isDropDown:
+  - slugid: 6
+    text: Usage Guide
+    link: https://docs.telemore.ai
+    isDropDown:
 
 footer-text: Copyright © 2025
 footer-policy: Privacy Policy
