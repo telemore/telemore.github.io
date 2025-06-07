@@ -161,12 +161,20 @@ Telemore provides a suite of **AI-powered productivity tools** designed to help 
 - **No Data Storage Beyond Session**: AI-generated responses are not stored beyond the active session.
 - **No Model Training or Data Learning**: Telemore's AI does not train, fine-tune, or retain user inputs.
 
-### 8.3 Third-Party Privacy Policy
-- AI processing is subject to [AWS Bedrock's Privacy Policy](https://aws.amazon.com/privacy/).
+### 8.3 Third-Party AI Services and Privacy Policies
+Telemore utilizes multiple AI service providers to deliver enhanced functionality:
+- **AWS Bedrock**: AI processing is subject to [AWS Privacy Policy](https://aws.amazon.com/privacy/)
+- **OpenAI Whisper**: Audio transcription services are subject to [OpenAI's Privacy Policy](https://openai.com/business-data/)
+- **Perplexity**: Document creation services are subject to [Perplexity's Privacy Policy](https://www.perplexity.ai/hub/legal/privacy-policy)
+- **Tavily**: Real-time search services are subject to [Tavily's Privacy Policy](https://www.tavily.com/privacy)
+
+For detailed information about how each service processes data, please refer to our Privacy Policy.
 
 ---
 
 ## 9. Data Privacy, Monitoring, and Client Responsibilities
+
+For comprehensive information about our data collection, processing, and protection practices, please refer to our Privacy Policy available at [telemore.ai/privacy].
 
 ### 9.1 Data Ownership
 - **Clients retain full ownership** of all Productivity Data, Monitoring Data, insights, analytics, and intellectual property derived from their data.

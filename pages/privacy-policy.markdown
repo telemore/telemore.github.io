@@ -8,11 +8,11 @@ description: "Learn how we collect, use, and protect your personal information. 
 
 <h1 class="text-center header-normal">Privacy Policy</h1>
 
-### 1. The General Data Protection Regulation
-The General Data Protection Regulation 2016 (GDPR) is one of the most significant pieces of legislation affecting the way that Telemore AI LLC carries out its information processing activities. Significant fines are applicable if a breach is deemed to have occurred under the GDPR, which is designed to protect the personal data of citizens of the European Union. It is Telemore's policy to ensure that our compliance with the GDPR, The California Consumer Privacy Act (CCPA), and other relevant legislation is clear and demonstrable at all times.
+### 1. Privacy Standards and Compliance
+Telemore AI LLC is committed to meeting the highest privacy standards. We comply with strict EU data protection standards, which are recognized as leading global privacy regulations, as well as The California Consumer Privacy Act (CCPA) and other applicable privacy legislation. Our privacy practices are designed to protect personal data regardless of your location, ensuring clear and demonstrable compliance at all times.
 
 ### 2. Definitions
-There are a total of 26 definitions listed within Article 4 – Definitions of the GDPR, and it is not appropriate to reproduce them all here. However, the most fundamental definitions with respect to this policy are as follows:
+The following key terms are used throughout this privacy policy:
 
 - **Personal data**: "any information relating to an identified or identifiable natural person ('data subject'); an identifiable natural person is one who can be identified, directly or indirectly, in particular by reference to an identifier such as a name, an identification number, location data, an online identifier or to one or more factors specific to the physical, physiological, genetic, mental, economic, cultural or social identity of that natural person."
 - **Processing**: "any operation or set of operations which is performed on personal data or on sets of personal data, whether or not by automated means, such as collection, recording, organization, structuring, storage, adaptation or alteration, retrieval, consultation, use, disclosure by transmission, dissemination or otherwise making available, alignment or combination, restriction, erasure or destruction."
@@ -68,6 +68,12 @@ Telemore leverages artificial intelligence to enhance productivity through task 
 
 5. **Human Review**: Our systems are designed to minimize human review of your data. When human review is necessary for troubleshooting or quality assurance, we take steps to anonymize user data to the extent feasible while still enabling resolution of the specific issue.
 
+6. **Audio Transcription**: When you use our audio transcription features, we utilize OpenAI's Whisper model for real-time audio-to-text conversion. Audio files are not stored and are processed in real-time only. OpenAI's privacy practices and data handling policies apply to this transcription processing. According to OpenAI's business data policy (available at https://openai.com/business-data/), they do not use business customer data submitted to their API to train their models or improve their services.
+
+7. **Document Creation**: When you request document creation features, we utilize Perplexity's AI services to generate fresh content each time. No document templates or previous content are stored. Perplexity's privacy practices and data handling policies (available at https://www.perplexity.ai/hub/legal/privacy-policy) apply to this processing. Data submitted for document creation is processed according to Perplexity's privacy policy and is used solely to provide the requested document generation service.
+
+8. **Real-Time Search in Chatbot**: When you request real-time search capabilities within our chatbot, we utilize Tavily's search API to provide up-to-date information. Search queries and chat context (which may include task details, user name, and email) are sent to Tavily for processing. Tavily's privacy practices and data handling policies (available at https://www.tavily.com/privacy) apply to this search processing. Data is processed according to Tavily's privacy policy and is used solely to provide the requested search results within the chat interface.
+
 ### 6. Workplace Monitoring Privacy Practices
 
 Our optional employee monitoring features require special attention to privacy and compliance:
@@ -78,7 +84,7 @@ Our optional employee monitoring features require special attention to privacy a
 
 3. **Transparency Controls**: Employees can be provided with visibility into what is being monitored through optional dashboard features that show what data is collected and when monitoring is active.
 
-4. **Compliance Support**: We provide resources to help clients comply with relevant workplace privacy regulations in their jurisdictions, but clients remain responsible for ensuring their use of our monitoring features complies with applicable laws.
+4. **Compliance Support and Certifications**: We maintain SOC 2 and ISO 27001 compliance through regular audits to ensure the highest security and privacy standards. We provide resources to help clients comply with relevant workplace privacy regulations in their jurisdictions, but clients remain responsible for ensuring their use of our monitoring features complies with applicable laws.
 
 5. **Separation of Core and Monitoring Features**: Our productivity tools function independently from monitoring features, allowing clients to use core productivity features without enabling monitoring functionality if desired.
 
@@ -114,17 +120,15 @@ Telemore AI LLC must ensure that it complies with all these principles both in t
 
 Telemore retains different types of data for varying periods based on business needs and legal requirements:
 
-1. **Account Information**: We retain your account information for as long as your account is active and for a period thereafter to comply with legal obligations, resolve disputes, and enforce agreements.
+1. **Account Information**: We retain your account information for as long as your account is active and for 30 days after termination to allow for potential account reactivation and to comply with legal obligations.
 
-2. **Productivity Data**: Task data, workflows, and productivity metrics are retained for the duration of your subscription and for 30 days after termination to allow for potential account reactivation.
+2. **Productivity Data**: Task data, workflows, and productivity metrics are retained for the duration of your subscription and for 30 days after termination.
 
-3. **Optional Monitoring Data**: Monitoring data is retained for a shorter period, typically 90 days, after which it is automatically deleted unless regulatory requirements necessitate longer retention.
+3. **Chat Interactions**: AI chat conversations are retained only for the duration needed to provide the service and are not stored beyond your active session except as needed to troubleshoot specific issues.
 
-4. **Chat Interactions**: AI chat conversations are retained only for the duration needed to provide the service and are not stored beyond your active session except as needed to troubleshoot specific issues.
+4. **System Logs**: For security, compliance, and operational integrity purposes, system logs are retained for 10 years. These logs contain technical information about service operation but do not include the content of your tasks or communications.
 
-5. **System Logs**: For security, compliance, and operational integrity purposes, system logs are retained for 10 years. These logs contain technical information about service operation but do not include the content of your tasks or communications.
-
-Upon subscription termination, you may request prompt deletion of all your data (except system logs required for security and compliance) by contacting support@telemore.ai, and we will complete this deletion within 30 days of your request.
+Upon subscription termination, all your data (except system logs required for security and compliance) will be automatically deleted within 30 days, or you may request immediate deletion by contacting support@telemore.ai.
 
 ### 10. Data Deletion Procedures
 
@@ -136,7 +140,6 @@ When you request deletion of your personal data:
     - Account information
     - Productivity data
     - Chat histories
-    - Optional monitoring data
 
 3. **Retention Exceptions**: Certain information may be retained for limited purposes:
     - System logs (retained for 10 years for security and compliance)
@@ -271,7 +274,9 @@ To provide our Service, Telemore works with trusted third-party service provider
 
 2. **Amazon Bedrock**: We utilize Amazon Bedrock for certain AI processing capabilities. All data processed through Amazon Bedrock is subject to AWS's security controls and is not used to train Amazon's AI models.
 
-3. **Payment Processors**: We use industry-standard payment processors to handle subscription payments. We do not store complete credit card information on our servers.
+3. **Cloudflare Services**: We utilize Cloudflare for DNS, Web Application Firewall (WAF), Pages, and K2 services. Cloudflare processes request data necessary for service delivery, including IP addresses and request headers. For information about Cloudflare's data handling practices and retention policies, please refer to their privacy policy at https://www.cloudflare.com/privacypolicy/.
+
+4. **Payment Processors**: We use industry-standard payment processors to handle subscription payments. We do not store complete credit card information on our servers.
 
 These service providers are contractually obligated to handle your data in compliance with applicable privacy laws and our instructions. We regularly review their security and privacy practices to ensure compliance with our standards.
 
@@ -309,7 +314,7 @@ Telemore is based in the United States and processes data on servers primarily l
 If you have questions about our international data practices, please contact us at support@telemore.ai.
 
 ### 22. Data protection officer
-A defined role of Data Protection Officer (DPO) is required under the GDPR if an organization is a public authority, if it performs large-scale monitoring, or if it processes particularly sensitive types of data on a large scale. Based on these criteria, Telemore AI LLC does not require a Data Protection Officer to be appointed.
+Based on the nature and scale of our data processing activities, Telemore AI LLC does not currently have a designated Data Protection Officer. All privacy-related inquiries should be directed to our support team at support@telemore.ai.
 
 ### 23. Breach notification
 It is Telemore's policy to be fair and proportionate when considering the actions to be taken to inform affected parties regarding breaches of personal data. In line with the GDPR, where a breach is known to have occurred which is likely to result in a risk to the rights and freedoms of individuals, the relevant supervisory authority will be informed within 72 hours.
@@ -337,11 +342,7 @@ If you have any questions, concerns, or requests regarding your personal data or
 
 **Email**: support@telemore.ai
 
-**Postal Address**:
-Telemore AI LLC
-Privacy Department
-[Your physical address]
-[City, State ZIP]
+**Email**: support@telemore.ai
 
 **Data Subject Requests**: For formal data subject requests (access, deletion, etc.), please use our dedicated form at [telemore.ai/privacy-request] or email support@telemore.ai with the subject line "Data Subject Request."
 
