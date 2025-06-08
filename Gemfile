@@ -1,4 +1,7 @@
 source "https://rubygems.org"
+
+# Specify Bundler version
+gem "bundler", "~> 2.6.7"
 # Hello! This is where you manage which Jekyll version is used to run.
 # When you want to use a different version, change it below, save the
 # file and run `bundle install`. Run Jekyll with `bundle exec`, like so:
@@ -38,3 +41,4 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 # Additional gems for Ruby 3.x compatibility
 gem "csv"
 gem "logger"
+gem "base64"
