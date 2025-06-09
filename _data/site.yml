@@ -1,16 +1,16 @@
 brand-logo-text: "Telemore AI"
 nav:
-  - slugid: 1
-    text: Products
-    link:
-    isDropDown: true
-    subMenu:
-      - text: AI Productivity Tool
-        link: /
-        desc: Chat with your tasks to plan your work
-      - text: Employee Analytics
-        link: /employee-analytics/
-        desc: Actionable insights for your high-performing team
+  # - slugid: 1
+  #   text: Products
+  #   link:
+  #   isDropDown: true
+  #   subMenu:
+  #     - text: AI Productivity Tool
+  #       link: /
+  #       desc: Chat with your tasks to plan your work
+  #     - text: Employee Analytics
+  #       link: /employee-analytics/
+  #       desc: Actionable insights for your high-performing team
 
   - slugid: 2
     text: Learn More
