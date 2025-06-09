@@ -40,7 +40,7 @@ nav:
     link: /contact-us/
     isDropDown:
   - slugid: 6
-    text: Usage Guide
+    text: User Guide
     link: https://docs.telemore.ai
     isDropDown:
 
