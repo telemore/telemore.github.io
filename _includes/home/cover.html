@@ -231,9 +231,44 @@
         <div class="right-section col-lg-6 col-12">
             <!-- Poster Container with Play Button -->
             <div id="video-poster-container" class="intro-image-container">
-                <img src="{{ site.data.home.home-intro-image }}" class="d-block img-fluid intro-image" alt="{{ site.data.home.video-banner-aria }}" />
-                <!-- Play button is removed -->
+                <button id="play-button" class="play-button" style="border: none; background: transparent; padding: 0;">
+                    <img src="{{ site.data.home.home-intro-image }}" class="d-block img-fluid intro-image" alt="{{ site.data.home.video-banner-aria }}" />
+                    <img src="/assets/image/video-button.png" class="button-icon" alt="Play" />
+                </button>
+            </div>
+            <!-- Video Container (Hidden by Default) -->
+            <div id="video-player-container" class="video-player-container" style="display: none;">
+                <video id="video-player" class="video-player" playsinline controls width="100%" preload="none" poster="{{ site.data.home.home-intro-image }}" aria-label="{{ site.data.home.video-banner-aria }}">
+                    Your browser does not support the video tag.
+                </video>
             </div>
         </div>
     </div>
 </div>
+
+<!-- Lazy-Loading Script -->
+<script>
+    document.addEventListener('DOMContentLoaded', function() {
+        var playButton = document.getElementById('play-button');
+        var videoPosterContainer = document.getElementById('video-poster-container');
+        var videoPlayerContainer = document.getElementById('video-player-container');
+        var videoPlayer = document.getElementById('video-player');
+
+        playButton.addEventListener('click', function() {
+            // Hide the poster container
+            videoPosterContainer.style.display = 'none';
+            // Show the video container
+            videoPlayerContainer.style.display = 'block';
+
+            // Create and append the WebM source element
+            var sourceWebm = document.createElement('source');
+            sourceWebm.src = '/assets/video/service/Telemore_Explainer_Video.webm';
+            sourceWebm.type = 'video/webm';
+            videoPlayer.appendChild(sourceWebm);
+
+            // Load and play the video
+            videoPlayer.load();
+            videoPlayer.play();
+        });
+    });
+</script>
